@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer reset, tokens, base, components, utilities;
+
+@import "./tokens.css" layer(tokens);
+@import "./base.css" layer(base);
+@import "./glass.css" layer(components);
+@import "./components.css" layer(components);
+
+@utility bg-base {
+  background-color: var(--bg-base);
+}
+
+@utility text-main {
+  color: var(--text-main);
+}
+
+@utility text-muted {
+  color: var(--text-muted);
+}
+
+@utility text-faint {
+  color: var(--text-faint);
+}
+
+@utility bg-surface {
+  background-color: var(--bg-surface);
+}
+
+@utility border-subtle {
+  border-color: var(--border-subtle);
+}
+
+@utility border-highlight {
+  border-color: var(--border-highlight);
+}

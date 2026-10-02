@@ -1,0 +1,210 @@
+/* Sidebar Advanced Glass & Motion Layer */
+
+.sidebar-glass {
+  background: var(--bg-surface-glass, rgba(7, 11, 24, 0.78));
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  position: relative;
+  overflow: hidden;
+}
+
+/* 1px Gradient Border on Right Edge */
+.sidebar-glass::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(
+    180deg,
+    rgba(99, 102, 241, 0.35) 0%,
+    rgba(14, 165, 233, 0.2) 30%,
+    rgba(255, 255, 255, 0.08) 70%,
+    rgba(168, 85, 247, 0.3) 100%
+  );
+  pointer-events: none;
+}
+
+/* Subtle Top & Bottom Aurora Ambient Glow */
+.sidebar-aurora-glow-top {
+  position: absolute;
+  top: -80px;
+  left: 10%;
+  right: 10%;
+  height: 160px;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.22) 0%, rgba(6, 182, 212, 0.08) 50%, transparent 80%);
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.sidebar-aurora-glow-bottom {
+  position: absolute;
+  bottom: -60px;
+  left: 10%;
+  right: 10%;
+  height: 140px;
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.18) 0%, rgba(139, 92, 246, 0.1) 50%, transparent 80%);
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Custom Thin Scrollable Menu Container with Top/Bottom Fade Masks */
+.sidebar-scroll-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.12) transparent;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0px,
+    black 16px,
+    black calc(100% - 16px),
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0px,
+    black 16px,
+    black calc(100% - 16px),
+    transparent 100%
+  );
+}
+
+.sidebar-scroll-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-scroll-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+}
+
+.sidebar-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* Interactive Sidebar Item Styling with CSS Variables */
+.sidebar-item {
+  --item-accent: var(--accent, #6366f1);
+  position: relative;
+  outline: none;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1),
+              color 0.2s ease,
+              background-color 0.2s ease;
+}
+
+.sidebar-item:hover {
+  transform: translateX(3px);
+}
+
+.sidebar-item:focus-visible {
+  box-shadow: 0 0 0 2px var(--item-accent);
+}
+
+/* Icon Tile Base */
+.sidebar-icon-tile {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: color-mix(in srgb, var(--item-accent) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--item-accent) 24%, transparent);
+  color: var(--item-accent);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              background-color 0.2s ease,
+              box-shadow 0.25s ease,
+              border-color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.sidebar-item:hover .sidebar-icon-tile {
+  transform: scale(1.08);
+  background-color: color-mix(in srgb, var(--item-accent) 22%, transparent);
+  border-color: color-mix(in srgb, var(--item-accent) 45%, transparent);
+  box-shadow: 0 0 16px -2px color-mix(in srgb, var(--item-accent) 40%, transparent);
+}
+
+.sidebar-item-active .sidebar-icon-tile {
+  background-color: color-mix(in srgb, var(--item-accent) 28%, transparent);
+  border-color: color-mix(in srgb, var(--item-accent) 60%, transparent);
+  color: #ffffff;
+  box-shadow: 0 0 20px -2px color-mix(in srgb, var(--item-accent) 55%, transparent);
+}
+
+/* Active Sliding Glass Pill */
+.sidebar-active-pill {
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--item-accent) 20%, transparent) 0%,
+    color-mix(in srgb, var(--item-accent) 8%, transparent) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--item-accent) 35%, transparent);
+  box-shadow: inset 0 0 12px 0 color-mix(in srgb, var(--item-accent) 15%, transparent),
+              0 4px 16px -4px color-mix(in srgb, var(--item-accent) 25%, transparent);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Left Indicator Bar for Active Item */
+.sidebar-active-indicator {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  bottom: 6px;
+  width: 3.5px;
+  border-radius: 0 4px 4px 0;
+  background: var(--item-accent);
+  box-shadow: 0 0 10px 1px var(--item-accent);
+  z-index: 2;
+}
+
+/* Live Pulsing Dot Animation */
+@keyframes live-ping-pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.live-dot-ping {
+  animation: live-ping-pulse 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Floating Tooltip in Collapsed Rail Mode */
+.sidebar-rail-tooltip {
+  position: absolute;
+  left: calc(100% + 12px);
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bg-surface-elevated, #0f172a);
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.12));
+  color: var(--text-main, #ffffff);
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 0 12px -2px rgba(99, 102, 241, 0.25);
+  pointer-events: none;
+  z-index: 50;
+}

@@ -1,0 +1,792 @@
+{
+  "oop": {
+    "name": "Object-Oriented Programming",
+    "concept": "OOP is a programming paradigm based on the concept of \"objects\", which can contain data in the form of fields and code in the form of procedures. The 4 primary pillars are Encapsulation, Abstraction, Inheritance, and Polymorphism.",
+    "simpleExplanation": "Encapsulation bundles data and methods while restricting direct access; Abstraction hides implementation complexity; Inheritance allows code reuse; Polymorphism lets entities take multiple forms through overloading and overriding.",
+    "example": "Class Animal with method sound(); Dog extends Animal and overrides sound() to emit \"Bark\".",
+    "keyInterviewQuestions": [
+      "Explain the difference between compile-time polymorphism (overloading) and runtime polymorphism (overriding).",
+      "What is an abstract class versus an interface, and when should each be used?",
+      "Explain the SOLID principles with practical software engineering examples.",
+      "Why is composition often favored over class inheritance?"
+    ],
+    "mcqs": [
+      {
+        "id": "cs_oop_1",
+        "question": "Which OOP principle is demonstrated by hiding internal object states and exposing only necessary methods?",
+        "options": [
+          "Encapsulation",
+          "Polymorphism",
+          "Inheritance",
+          "Cohesion"
+        ],
+        "correctOption": 0,
+        "explanation": "Encapsulation restricts direct external modification of internal fields through access modifiers and getters/setters."
+      },
+      {
+        "id": "cs_oop_2",
+        "question": "In Java/C++, what keyword is used to prevent a class from being subclassed or a method from being overridden?",
+        "options": [
+          "final",
+          "static",
+          "const",
+          "abstract"
+        ],
+        "correctOption": 0,
+        "explanation": "The `final` keyword in Java or `final` specifier in C++ disables subclassing and overriding."
+      },
+      {
+        "id": "cs_oop_3",
+        "question": "Which of the following is true regarding multiple inheritance in Java classes?",
+        "options": [
+          "Java does not support multiple class inheritance to prevent the Diamond Problem",
+          "Java supports multiple class inheritance natively with extends A, B",
+          "Java uses virtual inheritance for multiple class inheritance",
+          "Multiple inheritance is allowed only for abstract classes"
+        ],
+        "correctOption": 0,
+        "explanation": "Java avoids ambiguity (the diamond problem) by disallowing multiple class inheritance, allowing multiple interface implementations instead."
+      },
+      {
+        "id": "cs_oop_4",
+        "question": "Dynamic method dispatch in OOP is an implementation of:",
+        "options": [
+          "Runtime Polymorphism",
+          "Compile-time Polymorphism",
+          "Data Hiding",
+          "Type Casting"
+        ],
+        "correctOption": 0,
+        "explanation": "Dynamic method dispatch resolves the call to an overridden method at runtime based on the actual object instance."
+      },
+      {
+        "id": "cs_oop_5",
+        "question": "The 'L' in SOLID design principles stands for:",
+        "options": [
+          "Liskov Substitution Principle",
+          "Linear Dependency Principle",
+          "Lazy Loading Principle",
+          "Loose Coupling Principle"
+        ],
+        "correctOption": 0,
+        "explanation": "Liskov Substitution Principle states that derived classes must be substitutable for their base classes without altering program correctness."
+      },
+      {
+        "id": "cs_oop_6",
+        "question": "What is the key difference between an Abstract Class and an Interface in modern OOP?",
+        "options": [
+          "An abstract class can have instance fields and state constructors, whereas interfaces cannot hold instance state",
+          "Interfaces can have constructors",
+          "Abstract classes cannot have method implementations",
+          "Interfaces only allow private methods"
+        ],
+        "correctOption": 0,
+        "explanation": "Abstract classes maintain state (constructors and non-static member variables), whereas interfaces define contracts without instance state."
+      },
+      {
+        "id": "cs_oop_7",
+        "question": "A constructor in OOP:",
+        "options": [
+          "Has no return type and initializes new object instances",
+          "Returns a reference to the class type",
+          "Must be private in all standard classes",
+          "Can be declared static and overridden"
+        ],
+        "correctOption": 0,
+        "explanation": "Constructors are special member functions executed when an object is instantiated to initialize its state, having no explicit return type."
+      },
+      {
+        "id": "cs_oop_8",
+        "question": "Which relationship is represented by 'has-a'?",
+        "options": [
+          "Composition/Aggregation",
+          "Inheritance",
+          "Generalization",
+          "Specialization"
+        ],
+        "correctOption": 0,
+        "explanation": "A 'has-a' relationship indicates composition or aggregation (e.g. A Car has an Engine), whereas 'is-a' represents inheritance."
+      },
+      {
+        "id": "cs_oop_9",
+        "question": "Method overloading occurs when:",
+        "options": [
+          "Methods in the same class share a name but differ in parameter count or types",
+          "A subclass redefines a parent method with the exact same signature",
+          "Methods are declared static final",
+          "A method calls itself recursively"
+        ],
+        "correctOption": 0,
+        "explanation": "Method overloading is static/compile-time polymorphism where methods in the same scope share names but different signatures."
+      },
+      {
+        "id": "cs_oop_10",
+        "question": "What is the purpose of a destructor / finalize method?",
+        "options": [
+          "To release resources (file handles, sockets, native memory) before object reclamation",
+          "To allocate memory for the object",
+          "To create a clone of the object",
+          "To serialize the object into JSON"
+        ],
+        "correctOption": 0,
+        "explanation": "Destructors clean up system resources and unmanaged memory when an object lifecycle ends."
+      },
+      {
+        "id": "cs_oop_11",
+        "question": "In the Singleton Design Pattern, the constructor must be:",
+        "options": [
+          "Private",
+          "Public",
+          "Protected",
+          "Static"
+        ],
+        "correctOption": 0,
+        "explanation": "A private constructor prevents external instantiations, forcing access through a single static getInstance() method."
+      },
+      {
+        "id": "cs_oop_12",
+        "question": "Coupling in software architecture refers to:",
+        "options": [
+          "The degree of direct dependency between software modules",
+          "The degree to which elements inside a single module belong together",
+          "The execution speed of functions",
+          "The number of lines of code in a class"
+        ],
+        "correctOption": 0,
+        "explanation": "Coupling measures inter-module dependencies (low coupling is desired), while cohesion measures internal focus of a single module (high cohesion is desired)."
+      }
+    ]
+  },
+  "dbms": {
+    "name": "Database Management Systems",
+    "concept": "DBMS manages structured data storage, retrieval, and transaction integrity. Core concepts include Relational Algebra, ACID properties, Normalization (1NF to BCNF), Indexing (B-Trees / LSM Trees), and Concurrency Control.",
+    "simpleExplanation": "ACID guarantees reliable transactions: Atomicity (all or nothing), Consistency (preserves invariants), Isolation (concurrent safety), Durability (survives crashes). Normalization minimizes redundancy.",
+    "example": "Bank transfer: debiting Account A and crediting Account B wrapped in a transaction with BEGIN TRANSACTION and COMMIT.",
+    "keyInterviewQuestions": [
+      "Explain the ACID properties and transaction isolation levels (Read Uncommitted, Read Committed, Repeatable Read, Serializable).",
+      "How does a B+ Tree index work, and why is it preferred over a Hash Index for range queries?",
+      "Explain the difference between clustered and non-clustered indexes.",
+      "What are deadlocks in DBMS and how are they prevented or resolved?"
+    ],
+    "mcqs": [
+      {
+        "id": "cs_dbms_1",
+        "question": "Which ACID property guarantees that all operations within a transaction are completed or none are applied?",
+        "options": [
+          "Atomicity",
+          "Consistency",
+          "Isolation",
+          "Durability"
+        ],
+        "correctOption": 0,
+        "explanation": "Atomicity ensures that all transaction modifications are committed together or completely rolled back on error."
+      },
+      {
+        "id": "cs_dbms_2",
+        "question": "Which normal form eliminates transitive functional dependencies?",
+        "options": [
+          "3NF (Third Normal Form)",
+          "2NF (Second Normal Form)",
+          "1NF (First Normal Form)",
+          "BCNF (Boyce-Codd Normal Form)"
+        ],
+        "correctOption": 0,
+        "explanation": "3NF requires that a relation is in 2NF and no non-prime attribute is transitively dependent on the primary key."
+      },
+      {
+        "id": "cs_dbms_3",
+        "question": "In a B+ Tree index used by relational databases, where are actual record pointers stored?",
+        "options": [
+          "Only in the leaf nodes",
+          "In both internal and leaf nodes",
+          "Only in the root node",
+          "In separate hash buckets"
+        ],
+        "correctOption": 0,
+        "explanation": "B+ Trees store all actual record pointers/data exclusively in leaf nodes linked sequentially, facilitating fast range scans."
+      },
+      {
+        "id": "cs_dbms_4",
+        "question": "A dirty read occurs when a transaction reads:",
+        "options": [
+          "Uncommitted changes made by another concurrent transaction",
+          "Data that was deleted two hours ago",
+          "Data through an un-indexed column",
+          "Cached queries from a replica"
+        ],
+        "correctOption": 0,
+        "explanation": "Dirty reads happen in the READ UNCOMMITTED isolation level when Transaction B reads rows modified by Transaction A before A commits."
+      },
+      {
+        "id": "cs_dbms_5",
+        "question": "Which index type physically dictates the ordering of rows on the underlying disk storage?",
+        "options": [
+          "Clustered Index",
+          "Non-Clustered Index",
+          "Secondary Index",
+          "Bitmap Index"
+        ],
+        "correctOption": 0,
+        "explanation": "A clustered index determines the physical order of data on the disk table; hence, only one clustered index can exist per table."
+      },
+      {
+        "id": "cs_dbms_6",
+        "question": "Two-Phase Locking (2PL) protocol ensures:",
+        "options": [
+          "Conflict Serializability",
+          "Deadlock freedom",
+          "Zero disk I/O",
+          "Immediate commit without logging"
+        ],
+        "correctOption": 0,
+        "explanation": "2PL (Growing phase where locks are acquired, Shrinking phase where locks are released) guarantees conflict-serializable transaction schedules."
+      },
+      {
+        "id": "cs_dbms_7",
+        "question": "What is the purpose of Write-Ahead Logging (WAL) in databases?",
+        "options": [
+          "To guarantee Durability and Crash Recovery before modifying actual data pages on disk",
+          "To speed up SQL syntax parsing",
+          "To format output tables into JSON",
+          "To enforce foreign key constraints"
+        ],
+        "correctOption": 0,
+        "explanation": "WAL writes log changes sequentially to disk before flushing dirty memory pages, ensuring durability even upon sudden crash."
+      },
+      {
+        "id": "cs_dbms_8",
+        "question": "In relational algebra, which operator selects rows that satisfy a specified condition?",
+        "options": [
+          "Selection (σ)",
+          "Projection (π)",
+          "Cartesian Product (×)",
+          "Join (⋈)"
+        ],
+        "correctOption": 0,
+        "explanation": "Selection (sigma σ) filters tuples/rows based on a predicate."
+      },
+      {
+        "id": "cs_dbms_9",
+        "question": "Which anomaly is prevented under the Repeatable Read transaction isolation level?",
+        "options": [
+          "Non-repeatable reads (fuzzy reads)",
+          "Phantom reads",
+          "Serialization failures",
+          "Write skew across multiple tables"
+        ],
+        "correctOption": 0,
+        "explanation": "Repeatable Read guarantees that any row read during a transaction will retain the same values throughout that transaction."
+      },
+      {
+        "id": "cs_dbms_10",
+        "question": "A Candidate Key is defined as:",
+        "options": [
+          "A minimal Superkey capable of uniquely identifying every tuple",
+          "Any attribute that contains non-null values",
+          "A secondary foreign key",
+          "A key generated by auto-increment"
+        ],
+        "correctOption": 0,
+        "explanation": "A candidate key is a minimal set of attributes that uniquely identifies a row with no redundant attributes."
+      },
+      {
+        "id": "cs_dbms_11",
+        "question": "CAP Theorem states that a distributed data store can simultaneously provide at most two of which three guarantees?",
+        "options": [
+          "Consistency, Availability, Partition Tolerance",
+          "Concurrency, Atomicity, Performance",
+          "Caching, Availability, Persistence",
+          "Capacity, Authorization, Privacy"
+        ],
+        "correctOption": 0,
+        "explanation": "In the presence of network partitions (P), a distributed system must choose between Consistency (C) and Availability (A)."
+      },
+      {
+        "id": "cs_dbms_12",
+        "question": "What is the difference between TRUNCATE and DELETE in SQL DBMS?",
+        "options": [
+          "TRUNCATE is a DDL operation that deallocates pages without row-by-row logging; DELETE is DML and logs each deleted row",
+          "DELETE is faster than TRUNCATE",
+          "TRUNCATE can be filtered with a WHERE clause",
+          "DELETE drops the table schema completely"
+        ],
+        "correctOption": 0,
+        "explanation": "TRUNCATE quickly resets the table by deallocating data pages (DDL), whereas DELETE removes rows one by one with rollback logs."
+      }
+    ]
+  },
+  "os": {
+    "name": "Operating Systems",
+    "concept": "Operating Systems manage computer hardware, memory, process execution, and system resources. Key topics include Processes vs Threads, CPU Scheduling, Synchronization (Mutex, Semaphore), Deadlocks, Virtual Memory, and Paging.",
+    "simpleExplanation": "A process is an executing program with isolated memory address space; threads share process memory. Virtual memory gives processes illusion of contiguous large memory using paging.",
+    "example": "Producer-Consumer problem using Semaphores for buffer synchronization.",
+    "keyInterviewQuestions": [
+      "Differentiate between a Process and a Thread in terms of memory layout and context switching overhead.",
+      "Explain the 4 necessary conditions for Deadlock (Coffman conditions) and how to handle them.",
+      "How does Virtual Memory and Paging work, and what causes Page Faults (Thrashing)?",
+      "Compare Mutex vs Counting Semaphore."
+    ],
+    "mcqs": [
+      {
+        "id": "cs_os_1",
+        "question": "Which of the following is NOT one of the 4 Coffman conditions for deadlock?",
+        "options": [
+          "Preemption allowed",
+          "Mutual Exclusion",
+          "Hold and Wait",
+          "Circular Wait"
+        ],
+        "correctOption": 0,
+        "explanation": "Deadlock requires NO PREEMPTION. If preemption is allowed, deadlocks cannot persist."
+      },
+      {
+        "id": "cs_os_2",
+        "question": "What hardware component accelerates Virtual Address to Physical Address translation in Paging?",
+        "options": [
+          "TLB (Translation Lookaside Buffer)",
+          "L1 Instruction Cache",
+          "ALU",
+          "Direct Memory Access Controller"
+        ],
+        "correctOption": 0,
+        "explanation": "The TLB is a high-speed associative hardware cache that caches recent virtual-to-physical page translations."
+      },
+      {
+        "id": "cs_os_3",
+        "question": "Thrashing occurs in an operating system when:",
+        "options": [
+          "The CPU spends more time swapping pages in and out of disk than executing processes",
+          "A process enters an infinite loop",
+          "A deadlock occurs between two threads",
+          "The hard drive runs out of sectors"
+        ],
+        "correctOption": 0,
+        "explanation": "Thrashing happens when processes lack sufficient frames, causing constant high page-fault rates and CPU underutilization."
+      },
+      {
+        "id": "cs_os_4",
+        "question": "Which scheduling algorithm is non-preemptive and assigns CPU to the process with the smallest execution time?",
+        "options": [
+          "Shortest Job First (SJF)",
+          "Round Robin (RR)",
+          "Shortest Remaining Time First (SRTF)",
+          "Multi-Level Feedback Queue"
+        ],
+        "correctOption": 0,
+        "explanation": "Non-preemptive Shortest Job First schedules the task with shortest burst time to run until completion."
+      },
+      {
+        "id": "cs_os_5",
+        "question": "What is the primary difference between a Mutex and a Counting Semaphore?",
+        "options": [
+          "A mutex has ownership and can only be unlocked by the thread that locked it; a semaphore is a signaling mechanism",
+          "A mutex can be shared across multiple machines",
+          "Semaphores can only have value 0 or 1",
+          "Mutexes do not prevent race conditions"
+        ],
+        "correctOption": 0,
+        "explanation": "A Mutex provides mutual exclusion with thread ownership, whereas a Counting Semaphore tracks resource units and allows cross-thread signaling."
+      },
+      {
+        "id": "cs_os_6",
+        "question": "What is a Zombie Process in UNIX/Linux systems?",
+        "options": [
+          "A process that has completed execution but still has an entry in the process table because its parent hasn't read its exit status",
+          "A process that runs in background indefinitely",
+          "A process whose parent was terminated",
+          "A process that consumes 100% CPU"
+        ],
+        "correctOption": 0,
+        "explanation": "A zombie process has exited, but remains in the process table until its parent calls wait()/waitpid() to collect its termination status."
+      },
+      {
+        "id": "cs_os_7",
+        "question": "What happens during a Context Switch?",
+        "options": [
+          "The OS saves the CPU registers and Program Counter of the current process and loads the saved state of the next process",
+          "The OS deletes virtual memory tables",
+          "The OS reboots the CPU core",
+          "The OS compiles source code into machine instructions"
+        ],
+        "correctOption": 0,
+        "explanation": "Context switching preserves the state (registers, stack pointer, PCB) of the active process and restores the target process state."
+      },
+      {
+        "id": "cs_os_8",
+        "question": "Belady's Anomaly is observed in which page replacement algorithm?",
+        "options": [
+          "FIFO (First-In, First-Out)",
+          "LRU (Least Recently Used)",
+          "Optimal Page Replacement",
+          "LFU (Least Frequently Used)"
+        ],
+        "correctOption": 0,
+        "explanation": "Belady's Anomaly describes cases where increasing the number of page frames results in an INCREASE in the number of page faults under FIFO."
+      },
+      {
+        "id": "cs_os_9",
+        "question": "Which system call in UNIX is used to create a new child process by cloning the calling process?",
+        "options": [
+          "fork()",
+          "exec()",
+          "wait()",
+          "pthread_create()"
+        ],
+        "correctOption": 0,
+        "explanation": "fork() creates a duplicate child process with separate copy-on-write address space."
+      },
+      {
+        "id": "cs_os_10",
+        "question": "Banker's Algorithm is used for:",
+        "options": [
+          "Deadlock Avoidance by testing safe states",
+          "CPU Scheduling for I/O bound tasks",
+          "File system defragmentation",
+          "Network packet routing"
+        ],
+        "correctOption": 0,
+        "explanation": "Dijkstra's Banker's Algorithm simulates resource allocation to ensure the system never enters an unsafe state that could lead to deadlock."
+      },
+      {
+        "id": "cs_os_11",
+        "question": "What is the function of the Spooler (Simultaneous Peripheral Operations On-Line)?",
+        "options": [
+          "Buffer jobs on temporary storage (e.g., print queue) to decouple fast CPU from slow peripheral devices",
+          "Accelerate GPU rendering",
+          "Compress RAM contents",
+          "Prevent stack overflows"
+        ],
+        "correctOption": 0,
+        "explanation": "Spooling queues I/O operations on disk buffers so the CPU can proceed without waiting for slower peripheral hardware."
+      },
+      {
+        "id": "cs_os_12",
+        "question": "Which memory allocation scheme is prone to Internal Fragmentation?",
+        "options": [
+          "Fixed-size Partitioning / Paging",
+          "Dynamic Partitioning / Segmentation",
+          "Virtual memory without paging",
+          "Buddy system with dynamic coalescing"
+        ],
+        "correctOption": 0,
+        "explanation": "Paging and fixed-size partitions suffer from internal fragmentation when allocated page blocks exceed the actual memory payload requested."
+      }
+    ]
+  },
+  "cn": {
+    "name": "Computer Networks",
+    "concept": "Computer Networks cover communication protocols and data transmission across interconnected systems. Key models include OSI 7-Layer and TCP/IP, IP addressing & subnetting, TCP 3-way handshake & congestion control, UDP, DNS, HTTP/HTTPS, and SSL/TLS.",
+    "simpleExplanation": "OSI breaks communication into Physical, Data Link, Network, Transport, Session, Presentation, Application layers. TCP guarantees reliable in-order stream delivery; UDP provides lightweight low-latency datagrams.",
+    "example": "Browser typing https://google.com -> DNS Lookup -> TCP Handshake (SYN, SYN-ACK, ACK) -> TLS Exchange -> HTTP GET Request -> Response Rendering.",
+    "keyInterviewQuestions": [
+      "Describe step-by-step what happens when you type a URL into a browser and press Enter.",
+      "Explain the TCP 3-way handshake and 4-way termination handshake.",
+      "Compare TCP vs UDP: packet headers, reliability, flow control, and ideal use cases.",
+      "How does HTTPS establish secure encrypted communication (TLS Handshake)?"
+    ],
+    "mcqs": [
+      {
+        "id": "cs_cn_1",
+        "question": "Which layer of the OSI model is responsible for routing packets across intermediate networks using IP addresses?",
+        "options": [
+          "Network Layer (Layer 3)",
+          "Transport Layer (Layer 4)",
+          "Data Link Layer (Layer 2)",
+          "Session Layer (Layer 5)"
+        ],
+        "correctOption": 0,
+        "explanation": "The Network layer handles logical addressing (IPv4/IPv6) and path determination (routing)."
+      },
+      {
+        "id": "cs_cn_2",
+        "question": "What packets are exchanged during the standard TCP 3-Way Handshake connection establishment?",
+        "options": [
+          "SYN -> SYN-ACK -> ACK",
+          "ACK -> SYN -> SYN-ACK",
+          "SYN -> ACK -> DATA",
+          "FIN -> ACK -> FIN-ACK"
+        ],
+        "correctOption": 0,
+        "explanation": "Client sends SYN, server responds with SYN-ACK, and client replies with ACK to establish full-duplex TCP stream."
+      },
+      {
+        "id": "cs_cn_3",
+        "question": "Which transport protocol is connectionless, has minimal 8-byte header overhead, and does NOT guarantee delivery order?",
+        "options": [
+          "UDP (User Datagram Protocol)",
+          "TCP (Transmission Control Protocol)",
+          "SCTP",
+          "BGP"
+        ],
+        "correctOption": 0,
+        "explanation": "UDP provides lightweight datagram service without handshakes, retransmissions, or ordering overhead."
+      },
+      {
+        "id": "cs_cn_4",
+        "question": "What is the default port for secure HTTPS web traffic and standard unencrypted HTTP web traffic?",
+        "options": [
+          "443 and 80",
+          "8080 and 80",
+          "22 and 21",
+          "53 and 443"
+        ],
+        "correctOption": 0,
+        "explanation": "HTTPS uses TCP port 443; plain HTTP operates on TCP port 80."
+      },
+      {
+        "id": "cs_cn_5",
+        "question": "Which protocol translates domain names (e.g. example.com) into numerical IP addresses?",
+        "options": [
+          "DNS (Domain Name System)",
+          "DHCP (Dynamic Host Configuration Protocol)",
+          "ARP (Address Resolution Protocol)",
+          "NAT (Network Address Translation)"
+        ],
+        "correctOption": 0,
+        "explanation": "DNS is the distributed database system resolving human-readable hostnames to IP addresses."
+      },
+      {
+        "id": "cs_cn_6",
+        "question": "Address Resolution Protocol (ARP) is used to map:",
+        "options": [
+          "An IP address to a physical MAC address",
+          "A domain name to an IP address",
+          "A port number to a socket",
+          "A private IP to a public IP"
+        ],
+        "correctOption": 0,
+        "explanation": "ARP resolves Layer 3 IP addresses to Layer 2 Ethernet MAC addresses on a local subnet."
+      },
+      {
+        "id": "cs_cn_7",
+        "question": "In TCP Congestion Control, the phases in order are:",
+        "options": [
+          "Slow Start, Congestion Avoidance, Fast Retransmit / Fast Recovery",
+          "Fast Recovery, Slow Start, Congestion Avoidance",
+          "Flow Control, Window Scaling, Termination",
+          "Polling, CSMA/CD, Token Ring"
+        ],
+        "correctOption": 0,
+        "explanation": "TCP congestion control begins with Slow Start (exponential window growth), enters Congestion Avoidance upon reaching ssthresh, and uses Fast Retransmit/Recovery on duplicate ACKs."
+      },
+      {
+        "id": "cs_cn_8",
+        "question": "What is the subnet mask for a CIDR /24 network?",
+        "options": [
+          "255.255.255.0",
+          "255.255.0.0",
+          "255.0.0.0",
+          "255.255.255.128"
+        ],
+        "correctOption": 0,
+        "explanation": "A /24 subnet has 24 leading ones in binary (8+8+8), corresponding to 255.255.255.0 with 256 IP addresses (254 usable hosts)."
+      },
+      {
+        "id": "cs_cn_9",
+        "question": "Which HTTP status code indicates 'Unauthorized' (authentication required)?",
+        "options": [
+          "401",
+          "403",
+          "404",
+          "502"
+        ],
+        "correctOption": 0,
+        "explanation": "401 indicates Unauthorized (authentication missing or invalid); 403 Forbidden indicates authenticated but lacking permission."
+      },
+      {
+        "id": "cs_cn_10",
+        "question": "Which algorithm is used by Link-State Routing protocols like OSPF to compute shortest paths?",
+        "options": [
+          "Dijkstra's Algorithm",
+          "Bellman-Ford Algorithm",
+          "Floyd-Warshall Algorithm",
+          "Kruskal's Algorithm"
+        ],
+        "correctOption": 0,
+        "explanation": "OSPF uses Dijkstra's shortest path first (SPF) algorithm to calculate loop-free lowest cost paths across the network topology."
+      },
+      {
+        "id": "cs_cn_11",
+        "question": "What is the primary function of NAT (Network Address Translation)?",
+        "options": [
+          "To map multiple private local IP addresses to a single public IP address for internet routing",
+          "To encrypt web packets in transit",
+          "To speed up Ethernet switching",
+          "To assign MAC addresses to NICs"
+        ],
+        "correctOption": 0,
+        "explanation": "NAT modifies IP address headers in transit to conserve public IPv4 addresses and allow private LANs to communicate externally."
+      },
+      {
+        "id": "cs_cn_12",
+        "question": "How does TLS/SSL achieve both fast encryption speed and secure key exchange?",
+        "options": [
+          "It uses Asymmetric Encryption for the initial handshake / key exchange, then switches to Symmetric Encryption for payload data transfer",
+          "It uses only Asymmetric RSA encryption for all payload data",
+          "It uses plaintext hashing without keys",
+          "It transmits private keys over unencrypted channels"
+        ],
+        "correctOption": 0,
+        "explanation": "TLS combines the security of asymmetric cryptography (RSA / ECC) for identity verification and shared session key exchange with the high throughput of symmetric ciphers (AES-GCM)."
+      }
+    ]
+  },
+  "sql": {
+    "name": "SQL & Database Querying",
+    "concept": "SQL (Structured Query Language) is the standard language for relational database definition, manipulation, and querying. Core topics include DDL/DML, JOIN operations (INNER, LEFT, RIGHT, FULL, CROSS), Aggregations & GROUP BY / HAVING, Subqueries, Window Functions (ROW_NUMBER, RANK, DENSE_RANK, LEAD, LAG), and CTEs (Common Table Expressions).",
+    "simpleExplanation": "Joins combine records from multiple tables based on related keys. Window functions compute values across sets of rows without collapsing the result into a single row like GROUP BY does.",
+    "example": "SELECT employee_id, salary, DENSE_RANK() OVER (PARTITION BY department_id ORDER BY salary DESC) as rank FROM employees;",
+    "keyInterviewQuestions": [
+      "Explain the difference between WHERE and HAVING clauses in SQL.",
+      "Compare RANK(), DENSE_RANK(), and ROW_NUMBER() window functions with an example.",
+      "What is the difference between LEFT JOIN, RIGHT JOIN, and INNER JOIN?",
+      "How do Common Table Expressions (CTEs) work, and how can recursive CTEs be used?"
+    ],
+    "mcqs": [
+      {
+        "id": "cs_sql_1",
+        "question": "What is the key difference between WHERE and HAVING clauses in SQL?",
+        "options": [
+          "WHERE filters individual rows before aggregation; HAVING filters aggregated groups created by GROUP BY",
+          "WHERE is used after GROUP BY, while HAVING is used before",
+          "HAVING works on table definitions, WHERE works on views",
+          "There is no functional difference"
+        ],
+        "correctOption": 0,
+        "explanation": "WHERE filters rows before grouping occurs; HAVING filters rows after aggregate calculations (e.g. HAVING COUNT(*) > 5)."
+      },
+      {
+        "id": "cs_sql_2",
+        "question": "Given scores [100, 100, 90, 80], what will DENSE_RANK() assign to the third score (90)?",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "correctOption": 0,
+        "explanation": "DENSE_RANK() assigns consecutive rank numbers without gaps: 100 -> 1, 100 -> 1, 90 -> 2, 80 -> 3. (Standard RANK() would assign 3)."
+      },
+      {
+        "id": "cs_sql_3",
+        "question": "Which SQL join returns all rows from the left table and matched rows from the right table, filling with NULL when no match exists?",
+        "options": [
+          "LEFT OUTER JOIN",
+          "INNER JOIN",
+          "CROSS JOIN",
+          "RIGHT OUTER JOIN"
+        ],
+        "correctOption": 0,
+        "explanation": "LEFT JOIN keeps all rows from the left table and injects NULL values for non-matching right table columns."
+      },
+      {
+        "id": "cs_sql_4",
+        "question": "What does the UNION operator do compared to UNION ALL?",
+        "options": [
+          "UNION removes duplicate rows between result sets, whereas UNION ALL retains all rows including duplicates",
+          "UNION ALL sorts the output automatically",
+          "UNION only works on numbers",
+          "UNION combines columns rather than rows"
+        ],
+        "correctOption": 0,
+        "explanation": "UNION executes a distinct deduplication pass across combined result sets, whereas UNION ALL simply concatenates sets without overhead."
+      },
+      {
+        "id": "cs_sql_5",
+        "question": "Which window function accesses data from a subsequent row without requiring a self-join?",
+        "options": [
+          "LEAD()",
+          "LAG()",
+          "FIRST_VALUE()",
+          "NTILE()"
+        ],
+        "correctOption": 0,
+        "explanation": "LEAD() provides access to a row at a specified physical offset after the current row; LAG() accesses preceding rows."
+      },
+      {
+        "id": "cs_sql_6",
+        "question": "What is a Common Table Expression (CTE) in SQL?",
+        "options": [
+          "A named temporary result set defined within the execution scope of a single SELECT, INSERT, UPDATE, or DELETE using the WITH clause",
+          "A permanent database view stored on disk",
+          "A trigger attached to a table",
+          "An automated stored procedure"
+        ],
+        "correctOption": 0,
+        "explanation": "A CTE (WITH cte_name AS (...)) creates a temporary named result set simplifying complex nested queries and recursive traversals."
+      },
+      {
+        "id": "cs_sql_7",
+        "question": "Which SQL constraint ensures that all values in a column are distinct and cannot be NULL?",
+        "options": [
+          "PRIMARY KEY",
+          "UNIQUE",
+          "CHECK",
+          "FOREIGN KEY"
+        ],
+        "correctOption": 0,
+        "explanation": "PRIMARY KEY enforces both uniqueness and non-nullability (UNIQUE alone allows NULL in standard SQL)."
+      },
+      {
+        "id": "cs_sql_8",
+        "question": "What is the output of `SELECT NULL = NULL` in standard SQL boolean evaluation?",
+        "options": [
+          "UNKNOWN / NULL (Three-valued logic)",
+          "TRUE",
+          "FALSE",
+          "Syntax Error"
+        ],
+        "correctOption": 0,
+        "explanation": "In SQL three-valued logic (TRUE, FALSE, UNKNOWN), comparing NULL using equality yields UNKNOWN. `IS NULL` must be used instead."
+      },
+      {
+        "id": "cs_sql_9",
+        "question": "Which statement correctly finds the second highest salary from an Employees table?",
+        "options": [
+          "SELECT MAX(salary) FROM Employees WHERE salary < (SELECT MAX(salary) FROM Employees);",
+          "SELECT salary FROM Employees ORDER BY salary DESC LIMIT 1 OFFSET 2;",
+          "SELECT SECOND_MAX(salary) FROM Employees;",
+          "SELECT salary FROM Employees WHERE rank = 2;"
+        ],
+        "correctOption": 0,
+        "explanation": "Filtering out the overall MAX salary and finding the MAX of the remaining yields the exact 2nd highest salary even with duplicate max values."
+      },
+      {
+        "id": "cs_sql_10",
+        "question": "What does the COALESCE(val1, val2, val3) function do?",
+        "options": [
+          "Returns the first non-null expression among its arguments",
+          "Converts all values to lowercase",
+          "Concatenates strings together",
+          "Calculates average of non-null values"
+        ],
+        "correctOption": 0,
+        "explanation": "COALESCE evaluates arguments sequentially and returns the first expression that is not NULL."
+      },
+      {
+        "id": "cs_sql_11",
+        "question": "What is a correlated subquery in SQL?",
+        "options": [
+          "A subquery that uses values from the outer query and must be re-evaluated for each row processed by the outer query",
+          "A subquery executed only once before the main query",
+          "A query running in parallel across multiple CPU cores",
+          "A subquery joined using UNION"
+        ],
+        "correctOption": 0,
+        "explanation": "A correlated subquery references columns from the outer query row, executing once for every row evaluated by the enclosing query."
+      },
+      {
+        "id": "cs_sql_12",
+        "question": "In relational databases, what does the ON DELETE CASCADE foreign key action do?",
+        "options": [
+          "Automatically deletes child table records when the referenced parent record is deleted",
+          "Throws an error preventing parent deletion",
+          "Sets the foreign key column in the child table to NULL",
+          "Marks the child row as inactive without deleting"
+        ],
+        "correctOption": 0,
+        "explanation": "ON DELETE CASCADE propagates parent row deletion to all corresponding child rows to preserve referential integrity."
+      }
+    ]
+  }
+}

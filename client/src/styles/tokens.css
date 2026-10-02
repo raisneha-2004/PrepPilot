@@ -1,0 +1,103 @@
+@layer tokens {
+  @property --aurora-angle {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+  }
+
+  @property --gradient-angle {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+  }
+
+  @property --aurora-x {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 50%;
+  }
+
+  @property --aurora-y {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 50%;
+  }
+
+  @property --spotlight-x {
+    syntax: '<length>';
+    inherits: true;
+    initial-value: 50vw;
+  }
+
+  @property --spotlight-y {
+    syntax: '<length>';
+    inherits: true;
+    initial-value: 50vh;
+  }
+
+  :root {
+    /* Color Scheme */
+    color-scheme: dark light;
+
+    /* Palette in OKLCH */
+    --color-primary-base: oklch(0.65 0.24 275);
+    --color-primary-hover: oklch(0.70 0.26 275);
+    --color-primary-active: oklch(0.58 0.24 275);
+    --color-primary-glow: oklch(0.65 0.24 275 / 0.35);
+
+    --color-secondary-base: oklch(0.72 0.18 195);
+    --color-accent-base: oklch(0.75 0.19 155);
+    --color-warning-base: oklch(0.78 0.17 65);
+    --color-danger-base: oklch(0.65 0.22 25);
+
+    /* Light/Dark tokens using light-dark() */
+    --bg-base: light-dark(oklch(0.98 0.01 260), oklch(0.12 0.02 265));
+    --bg-surface: light-dark(oklch(1 0 0 / 0.85), oklch(0.16 0.03 265 / 0.65));
+    --bg-surface-elevated: light-dark(oklch(1 0 0 / 0.95), oklch(0.20 0.04 265 / 0.75));
+    --bg-surface-subtle: light-dark(oklch(0.94 0.01 260 / 0.7), oklch(0.18 0.02 265 / 0.5));
+    
+    --border-subtle: light-dark(oklch(0.88 0.01 260 / 0.8), oklch(0.30 0.03 265 / 0.35));
+    --border-highlight: light-dark(oklch(0.75 0.08 275 / 0.4), oklch(0.65 0.18 275 / 0.4));
+
+    --text-main: light-dark(oklch(0.18 0.02 265), oklch(0.96 0.01 260));
+    --text-muted: light-dark(oklch(0.45 0.03 265), oklch(0.70 0.02 260));
+    --text-faint: light-dark(oklch(0.60 0.02 265), oklch(0.50 0.02 260));
+
+    /* Fluid Typography via clamp() */
+    --font-size-xs: clamp(0.75rem, 0.7rem + 0.2vw, 0.8125rem);
+    --font-size-sm: clamp(0.84rem, 0.8rem + 0.25vw, 0.9375rem);
+    --font-size-base: clamp(0.95rem, 0.9rem + 0.3vw, 1.0625rem);
+    --font-size-lg: clamp(1.125rem, 1.05rem + 0.45vw, 1.28rem);
+    --font-size-xl: clamp(1.35rem, 1.22rem + 0.75vw, 1.65rem);
+    --font-size-2xl: clamp(1.75rem, 1.55rem + 1.1vw, 2.25rem);
+    --font-size-3xl: clamp(2.2rem, 1.9rem + 1.8vw, 3.2rem);
+    --font-size-hero: clamp(2.8rem, 2.2rem + 3.2vw, 4.8rem);
+
+    /* Radii */
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1.125rem;
+    --radius-xl: 1.625rem;
+    --radius-full: 9999px;
+
+    /* Shadows & Glow */
+    --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    --shadow-subtle: 0 4px 20px -2px rgba(0, 0, 0, 0.2);
+    --shadow-glow: 0 0 35px -5px var(--color-primary-glow);
+
+    /* Motion */
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-in-out-smooth: cubic-bezier(0.65, 0, 0.35, 1);
+    --duration-fast: 150ms;
+    --duration-normal: 250ms;
+    --duration-slow: 400ms;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  .light {
+    color-scheme: light;
+  }
+}

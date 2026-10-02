@@ -1,0 +1,530 @@
+[
+  {
+    "id": "exam_51af33a8999d",
+    "examId": "exam_51af33a8999d",
+    "userId": "user_test_scoring",
+    "preset": "mini",
+    "score": 1.5,
+    "maxScore": 10,
+    "accuracy": 50,
+    "totalQuestions": 10,
+    "attemptedCount": 4,
+    "correctCount": 2,
+    "wrongCount": 2,
+    "unattemptedCount": 6,
+    "timeTakenSeconds": 300,
+    "tabSwitches": 1,
+    "sectionScores": {
+      "Logical Reasoning": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Probability & Permutations": {
+        "total": 2,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Verbal Ability": {
+        "total": 3,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Number Series": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Speed & Distance": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Quantitative Aptitude": {
+        "total": 2,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      }
+    },
+    "xpEarned": 20,
+    "submittedAt": "2026-09-28T13:02:51.524Z",
+    "createdAt": "2026-09-28T13:02:51.526Z",
+    "updatedAt": "2026-09-28T13:02:51.526Z"
+  },
+  {
+    "id": "exam_f99fc431ef51",
+    "examId": "exam_f99fc431ef51",
+    "userId": "user_test_scoring",
+    "preset": "mini",
+    "score": 1.5,
+    "maxScore": 10,
+    "accuracy": 50,
+    "totalQuestions": 10,
+    "attemptedCount": 4,
+    "correctCount": 2,
+    "wrongCount": 2,
+    "unattemptedCount": 6,
+    "timeTakenSeconds": 300,
+    "tabSwitches": 1,
+    "sectionScores": {
+      "Number Series": {
+        "total": 2,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Logical Reasoning": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Quantitative Aptitude": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Verbal Ability": {
+        "total": 2,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Syllogisms": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Probability & Permutations": {
+        "total": 2,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Profit & Loss": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      }
+    },
+    "xpEarned": 20,
+    "submittedAt": "2026-09-28T13:08:16.703Z",
+    "createdAt": "2026-09-28T13:08:16.710Z",
+    "updatedAt": "2026-09-28T13:08:16.710Z"
+  },
+  {
+    "id": "exam_b10545545ead",
+    "examId": "exam_b10545545ead",
+    "userId": "2b1955e9-b386-4955-8c3b-3188dd02f965",
+    "preset": "mini",
+    "score": 0,
+    "maxScore": 10,
+    "accuracy": 0,
+    "totalQuestions": 10,
+    "attemptedCount": 1,
+    "correctCount": 0,
+    "wrongCount": 1,
+    "unattemptedCount": 9,
+    "timeTakenSeconds": 65,
+    "tabSwitches": 0,
+    "sectionScores": {
+      "Probability & Permutations": {
+        "total": 2,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Number Series": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Syllogisms": {
+        "total": 3,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Data Interpretation": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Speed & Distance": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Logical Reasoning": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Verbal Ability": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      }
+    },
+    "xpEarned": 20,
+    "submittedAt": "2026-09-28T13:29:18.716Z",
+    "createdAt": "2026-09-28T13:29:18.717Z",
+    "updatedAt": "2026-09-28T13:29:18.717Z"
+  },
+  {
+    "id": "exam_ec6ae896e597",
+    "examId": "exam_ec6ae896e597",
+    "userId": "user_test_scoring",
+    "preset": "mini",
+    "score": 1.5,
+    "maxScore": 10,
+    "accuracy": 50,
+    "totalQuestions": 10,
+    "attemptedCount": 4,
+    "correctCount": 2,
+    "wrongCount": 2,
+    "unattemptedCount": 6,
+    "timeTakenSeconds": 300,
+    "tabSwitches": 1,
+    "sectionScores": {
+      "Verbal Ability": {
+        "total": 3,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Syllogisms": {
+        "total": 2,
+        "attempted": 2,
+        "correct": 1,
+        "score": 0.75
+      },
+      "Quantitative Aptitude": {
+        "total": 2,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Profit & Loss": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Probability & Permutations": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Logical Reasoning": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      }
+    },
+    "xpEarned": 20,
+    "submittedAt": "2026-09-28T13:33:53.984Z",
+    "createdAt": "2026-09-28T13:33:53.988Z",
+    "updatedAt": "2026-09-28T13:33:53.988Z"
+  },
+  {
+    "id": "exam_63b8adbdd043",
+    "examId": "exam_63b8adbdd043",
+    "userId": "user_test_scoring",
+    "preset": "mini",
+    "score": 1.5,
+    "maxScore": 10,
+    "accuracy": 50,
+    "totalQuestions": 10,
+    "attemptedCount": 4,
+    "correctCount": 2,
+    "wrongCount": 2,
+    "unattemptedCount": 6,
+    "timeTakenSeconds": 300,
+    "tabSwitches": 1,
+    "sectionScores": {
+      "Logical Reasoning": {
+        "total": 2,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Number Series": {
+        "total": 2,
+        "attempted": 2,
+        "correct": 1,
+        "score": 0.75
+      },
+      "Profit & Loss": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Syllogisms": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Speed & Distance": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Verbal Ability": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Data Interpretation": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Quantitative Aptitude": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      }
+    },
+    "xpEarned": 20,
+    "submittedAt": "2026-09-28T13:42:53.918Z",
+    "createdAt": "2026-09-28T13:42:53.921Z",
+    "updatedAt": "2026-09-28T13:42:53.921Z"
+  },
+  {
+    "id": "exam_f4317c044347",
+    "examId": "exam_f4317c044347",
+    "userId": "user_test_scoring",
+    "preset": "mini",
+    "score": 1.5,
+    "maxScore": 10,
+    "accuracy": 50,
+    "totalQuestions": 10,
+    "attemptedCount": 4,
+    "correctCount": 2,
+    "wrongCount": 2,
+    "unattemptedCount": 6,
+    "timeTakenSeconds": 300,
+    "tabSwitches": 1,
+    "sectionScores": {
+      "Logical Reasoning": {
+        "total": 3,
+        "attempted": 3,
+        "correct": 1,
+        "score": 0.5
+      },
+      "Syllogisms": {
+        "total": 2,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Number Series": {
+        "total": 3,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Quantitative Aptitude": {
+        "total": 2,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      }
+    },
+    "xpEarned": 20,
+    "submittedAt": "2026-09-29T09:45:45.374Z",
+    "createdAt": "2026-09-29T09:45:45.388Z",
+    "updatedAt": "2026-09-29T09:45:45.388Z"
+  },
+  {
+    "id": "exam_4e2d3c5d8ac1",
+    "examId": "exam_4e2d3c5d8ac1",
+    "userId": "user_test_scoring",
+    "preset": "mini",
+    "score": 1.5,
+    "maxScore": 10,
+    "accuracy": 50,
+    "totalQuestions": 10,
+    "attemptedCount": 4,
+    "correctCount": 2,
+    "wrongCount": 2,
+    "unattemptedCount": 6,
+    "timeTakenSeconds": 300,
+    "tabSwitches": 1,
+    "sectionScores": {
+      "Profit & Loss": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Probability & Permutations": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Verbal Ability": {
+        "total": 2,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Speed & Distance": {
+        "total": 2,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Quantitative Aptitude": {
+        "total": 2,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Logical Reasoning": {
+        "total": 2,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      }
+    },
+    "xpEarned": 20,
+    "submittedAt": "2026-09-29T09:50:00.152Z",
+    "createdAt": "2026-09-29T09:50:00.155Z",
+    "updatedAt": "2026-09-29T09:50:00.155Z"
+  },
+  {
+    "id": "exam_a99ea753e6e6",
+    "examId": "exam_a99ea753e6e6",
+    "userId": "user_test_scoring",
+    "preset": "mini",
+    "score": 1.5,
+    "maxScore": 10,
+    "accuracy": 50,
+    "totalQuestions": 10,
+    "attemptedCount": 4,
+    "correctCount": 2,
+    "wrongCount": 2,
+    "unattemptedCount": 6,
+    "timeTakenSeconds": 300,
+    "tabSwitches": 1,
+    "sectionScores": {
+      "Verbal Ability": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Syllogisms": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Quantitative Aptitude": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Data Interpretation": {
+        "total": 2,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Profit & Loss": {
+        "total": 3,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Logical Reasoning": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      },
+      "Probability & Permutations": {
+        "total": 1,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      }
+    },
+    "xpEarned": 20,
+    "submittedAt": "2026-10-02T07:10:40.328Z",
+    "createdAt": "2026-10-02T07:10:40.336Z",
+    "updatedAt": "2026-10-02T07:10:40.336Z"
+  },
+  {
+    "id": "exam_e525ea245fce",
+    "examId": "exam_e525ea245fce",
+    "userId": "user_test_scoring",
+    "preset": "mini",
+    "score": 1.5,
+    "maxScore": 10,
+    "accuracy": 50,
+    "totalQuestions": 10,
+    "attemptedCount": 4,
+    "correctCount": 2,
+    "wrongCount": 2,
+    "unattemptedCount": 6,
+    "timeTakenSeconds": 300,
+    "tabSwitches": 1,
+    "sectionScores": {
+      "Data Interpretation": {
+        "total": 1,
+        "attempted": 1,
+        "correct": 1,
+        "score": 1
+      },
+      "Profit & Loss": {
+        "total": 3,
+        "attempted": 2,
+        "correct": 1,
+        "score": 0.75
+      },
+      "Speed & Distance": {
+        "total": 4,
+        "attempted": 1,
+        "correct": 0,
+        "score": -0.25
+      },
+      "Probability & Permutations": {
+        "total": 2,
+        "attempted": 0,
+        "correct": 0,
+        "score": 0
+      }
+    },
+    "xpEarned": 20,
+    "submittedAt": "2026-10-02T07:22:46.257Z",
+    "createdAt": "2026-10-02T07:22:46.261Z",
+    "updatedAt": "2026-10-02T07:22:46.261Z"
+  }
+]

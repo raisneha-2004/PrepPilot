@@ -1,0 +1,143 @@
+@layer components {
+  /* Aurora Animated Mesh Canvas */
+  .aurora-canvas {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+    background: radial-gradient(
+      circle at var(--aurora-x) var(--aurora-y),
+      oklch(0.65 0.24 275 / 0.12) 0%,
+      oklch(0.72 0.18 195 / 0.08) 25%,
+      oklch(0.75 0.19 155 / 0.04) 45%,
+      transparent 70%
+    );
+    animation: auroraMesh 18s ease-in-out infinite alternate;
+  }
+
+  @keyframes auroraMesh {
+    0% {
+      --aurora-angle: 0deg;
+      --aurora-x: 20%;
+      --aurora-y: 20%;
+    }
+    50% {
+      --aurora-angle: 180deg;
+      --aurora-x: 80%;
+      --aurora-y: 60%;
+    }
+    100% {
+      --aurora-angle: 360deg;
+      --aurora-x: 40%;
+      --aurora-y: 85%;
+    }
+  }
+
+  /* Interactive Spotlight Follower */
+  .spotlight-overlay {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    background: radial-gradient(
+      600px circle at var(--spotlight-x, 50vw) var(--spotlight-y, 50vh),
+      oklch(0.65 0.24 275 / 0.06),
+      transparent 80%
+    );
+  }
+
+  /* Premium Layered Glass Cards */
+  .glass-card {
+    position: relative;
+    background: var(--bg-surface);
+    backdrop-filter: blur(16px) saturate(160%);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.22);
+    transition: transform var(--duration-normal) var(--ease-out-expo),
+                border-color var(--duration-normal) var(--ease-out-expo),
+                box-shadow var(--duration-normal) var(--ease-out-expo);
+  }
+
+  .glass-card:hover {
+    border-color: var(--border-highlight);
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.35), 0 0 24px -6px var(--color-primary-glow);
+  }
+
+  /* Elevated Glass Panel */
+  .glass-panel {
+    background: var(--bg-surface-elevated);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-xl);
+  }
+
+  /* Animated Conic Gradient Border */
+  .gradient-border-glow {
+    position: relative;
+    border-radius: var(--radius-lg);
+  }
+
+  .gradient-border-glow::before {
+    content: '';
+    position: absolute;
+    inset: -1.5px;
+    border-radius: inherit;
+    padding: 1.5px;
+    background: conic-gradient(
+      from var(--gradient-angle),
+      oklch(0.65 0.24 275),
+      oklch(0.72 0.18 195),
+      oklch(0.75 0.19 155),
+      oklch(0.65 0.24 275)
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: rotateGradient 6s linear infinite;
+    pointer-events: none;
+  }
+
+  @keyframes rotateGradient {
+    to {
+      --gradient-angle: 360deg;
+    }
+  }
+
+  /* Shimmer Skeleton */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      var(--bg-surface-subtle) 0%,
+      color-mix(in oklch, var(--bg-surface-subtle), white 12%) 50%,
+      var(--bg-surface-subtle) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmerSlide 1.8s infinite ease-in-out;
+  }
+
+  @keyframes shimmerSlide {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  /* Parent-aware highlight using :has */
+  .question-card:has(input:checked) {
+    border-color: var(--color-primary-base);
+    background: color-mix(in oklch, var(--bg-surface), var(--color-primary-base) 8%);
+  }
+
+  /* View Transition Circle Reveal */
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+    mix-blend-mode: normal;
+  }
+}

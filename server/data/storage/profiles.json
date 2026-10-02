@@ -1,0 +1,50 @@
+[
+  {
+    "id": "test-integration-user-123",
+    "userId": "test-integration-user-123",
+    "targetRole": "SDE",
+    "experienceLevel": "fresher",
+    "dailyHours": 3,
+    "currentSkills": [
+      "Java",
+      "JavaScript",
+      "SQL"
+    ],
+    "targetCompanies": [
+      "Google",
+      "Amazon"
+    ],
+    "preferredLanguage": "English",
+    "onboarded": true,
+    "updatedAt": "2026-10-02T07:22:47.487Z",
+    "createdAt": "2026-09-28T11:48:09.272Z"
+  },
+  {
+    "id": "user_kwqxdu2op",
+    "userId": "user_kwqxdu2op",
+    "targetRole": "Frontend",
+    "experienceLevel": "fresher",
+    "placementDate": "2026-11-30",
+    "dailyHours": 7,
+    "currentSkills": [
+      "SQL",
+      "Data Structures",
+      "JavaScript",
+      "Python",
+      "Data Structures & Algorithms",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Operating Systems",
+      "DBMS",
+      "Computer Networks"
+    ],
+    "targetCompanies": [
+      "TCS Digital"
+    ],
+    "preferredLanguage": "English",
+    "onboarded": true,
+    "updatedAt": "2026-09-28T12:37:48.638Z",
+    "createdAt": "2026-09-28T12:37:48.638Z"
+  }
+]

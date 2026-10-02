@@ -1,0 +1,754 @@
+[
+  {
+    "id": "int_hr_1",
+    "role": "All",
+    "category": "HR/Behavioral",
+    "difficulty": "easy",
+    "question": "Tell me about yourself and walk me through your engineering journey.",
+    "coreConceptsExpected": [
+      "Structured background summary",
+      "Key projects and technical stack",
+      "Problem solving passion",
+      "Why you want this role"
+    ],
+    "sampleAnswer": "I am a passionate software engineer with a strong foundation in data structures, algorithms, and distributed systems. Over the course of my academics and projects, I built full-stack applications with Node.js and React, and optimized high-throughput APIs. I am excited to apply my problem-solving skills to real-world scaled engineering problems at your company.",
+    "evaluationCriteria": {
+      "technical": 20,
+      "clarity": 40,
+      "completeness": 40
+    }
+  },
+  {
+    "id": "int_hr_2",
+    "role": "All",
+    "category": "HR/Behavioral",
+    "difficulty": "medium",
+    "question": "Describe a situation where you faced a difficult technical bug under tight deadlines. How did you resolve it?",
+    "coreConceptsExpected": [
+      "STAR method (Situation, Task, Action, Result)",
+      "Root cause analysis",
+      "Debugging methodology",
+      "Communication and composure"
+    ],
+    "sampleAnswer": "During our final project sprint, our payment webhook began timing out intermittently. Using structured logging and APM traces, I isolated the issue to a connection pool exhaustion in the database repository. I implemented exponential backoff retries and connection pooling limits, resolving the deadlock and delivering the milestone 1 day ahead of schedule.",
+    "evaluationCriteria": {
+      "technical": 30,
+      "clarity": 35,
+      "completeness": 35
+    }
+  },
+  {
+    "id": "int_hr_3",
+    "role": "All",
+    "category": "HR/Behavioral",
+    "difficulty": "medium",
+    "question": "Tell me about a time you disagreed with a team member on a technical decision. How did you handle it?",
+    "coreConceptsExpected": [
+      "Respectful debate",
+      "Data-driven decision making",
+      "Benchmarking / trade-off analysis",
+      "Commitment to the final outcome"
+    ],
+    "sampleAnswer": "My teammate wanted to use MongoDB for a transactional ledger, whereas I proposed PostgreSQL. Rather than arguing subjectively, I created a benchmarking prototype and highlighted the strict ACID compliance requirements for financial transfers. We agreed on PostgreSQL, and the project shipped smoothly.",
+    "evaluationCriteria": {
+      "technical": 30,
+      "clarity": 35,
+      "completeness": 35
+    }
+  },
+  {
+    "id": "int_hr_4",
+    "role": "All",
+    "category": "HR/Behavioral",
+    "difficulty": "easy",
+    "question": "Why do you want to join our company specifically?",
+    "coreConceptsExpected": [
+      "Knowledge of company tech stack and products",
+      "Alignment with culture & mission",
+      "Career growth synergy"
+    ],
+    "sampleAnswer": "I have closely followed your engineering blog and open-source contributions. The scale at which your platform handles millions of concurrent user transactions provides the exact engineering complexity where I want to grow and make an impact.",
+    "evaluationCriteria": {
+      "technical": 20,
+      "clarity": 40,
+      "completeness": 40
+    }
+  },
+  {
+    "id": "int_hr_5",
+    "role": "All",
+    "category": "HR/Behavioral",
+    "difficulty": "medium",
+    "question": "Tell me about a project that failed or did not go as planned. What did you learn from it?",
+    "coreConceptsExpected": [
+      "Accountability and humility",
+      "Root cause post-mortem",
+      "Key lessons learned",
+      "Preventative measures taken in future work"
+    ],
+    "sampleAnswer": "In my initial project, I over-engineered a microservices architecture for a simple CRUD tool, leading to deployment overhead. I learned the critical value of YAGNI (You Aren't Gonna Need It) and starting with modular monoliths before distributed decomposition.",
+    "evaluationCriteria": {
+      "technical": 30,
+      "clarity": 35,
+      "completeness": 35
+    }
+  },
+  {
+    "id": "int_hr_6",
+    "role": "All",
+    "category": "HR/Behavioral",
+    "difficulty": "easy",
+    "question": "Where do you see yourself in 3 to 5 years as an engineer?",
+    "coreConceptsExpected": [
+      "Technical depth and ownership",
+      "System design expertise",
+      "Mentorship and leadership aspirations"
+    ],
+    "sampleAnswer": "In 3-5 years, I see myself as a senior engineer who has deep domain expertise in distributed systems architecture, taking ownership of large-scale product features, and mentoring junior engineers in best coding practices.",
+    "evaluationCriteria": {
+      "technical": 20,
+      "clarity": 40,
+      "completeness": 40
+    }
+  },
+  {
+    "id": "int_hr_7",
+    "role": "All",
+    "category": "HR/Behavioral",
+    "difficulty": "medium",
+    "question": "How do you prioritize your tasks when handling multiple competing deadlines?",
+    "coreConceptsExpected": [
+      "Eisenhower Matrix / Impact vs Effort",
+      "Stakeholder communication",
+      "Focus & time blocking",
+      "Proactive risk mitigation"
+    ],
+    "sampleAnswer": "I evaluate tasks based on business impact and dependencies. I break complex epics into small daily deliverables, communicate early with stakeholders if blockers arise, and maintain focused time-blocks for high-complexity code design.",
+    "evaluationCriteria": {
+      "technical": 20,
+      "clarity": 40,
+      "completeness": 40
+    }
+  },
+  {
+    "id": "int_hr_8",
+    "role": "All",
+    "category": "HR/Behavioral",
+    "difficulty": "medium",
+    "question": "What is your strategy for continuously learning new technologies in our fast-evolving field?",
+    "coreConceptsExpected": [
+      "Hands-on project building",
+      "Reading documentation & tech papers",
+      "Contributing to open source / community"
+    ],
+    "sampleAnswer": "I follow a hands-on approach: whenever a new technology emerges, I read the official docs and immediately build a minimal production-ready micro-project to test its nuances, failure modes, and performance trade-offs.",
+    "evaluationCriteria": {
+      "technical": 25,
+      "clarity": 40,
+      "completeness": 35
+    }
+  },
+  {
+    "id": "int_sde_1",
+    "role": "SDE",
+    "category": "SDE General",
+    "difficulty": "medium",
+    "question": "Explain how a Hash Table handles collisions and what the time complexities are in best vs worst case.",
+    "coreConceptsExpected": [
+      "Hash function distribution",
+      "Chaining (Linked Lists / Red-Black Trees)",
+      "Open Addressing (Linear/Quadratic Probing)",
+      "O(1) average vs O(N) worst case with bad hash function"
+    ],
+    "sampleAnswer": "A hash table computes a bucket index using a hash function. Collisions occur when different keys hash to the same bucket. They are resolved via Chaining (storing colliding nodes in linked lists or balanced trees like in Java 8 HashMap) or Open Addressing (probing next available slot). Lookup is average O(1), degrading to O(N) if all elements collide into a single bucket.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_sde_2",
+    "role": "SDE",
+    "category": "SDE General",
+    "difficulty": "hard",
+    "question": "How would you design a URL shortener system like TinyURL? Discuss database schema, hashing/encoding, and scaling.",
+    "coreConceptsExpected": [
+      "Base62 encoding of auto-incrementing ID vs MD5/SHA-256 truncation",
+      "Database schema (id, long_url, short_code, created_at)",
+      "Caching (Redis) for hot URLs",
+      "Rate limiting and redirection (301 vs 302)"
+    ],
+    "sampleAnswer": "To design TinyURL: generate a unique 64-bit integer ID and convert it to Base62 (a-z, A-Z, 0-9) yielding a 7-character string supporting 3.5 trillion URLs. Store mappings in an SQL or NoSQL table with an index on short_code. Use Redis cache for the top 20% read traffic. Return HTTP 302 (Temporary Redirect) to track click analytics.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_sde_3",
+    "role": "SDE",
+    "category": "SDE General",
+    "difficulty": "medium",
+    "question": "Explain the difference between process memory segments (Stack, Heap, Data, Code).",
+    "coreConceptsExpected": [
+      "Stack: automatic allocation, local variables, LIFO execution frames",
+      "Heap: dynamic runtime allocation, manual/GC deallocation",
+      "Data/BSS: global and static variables",
+      "Code/Text: executable binary instructions"
+    ],
+    "sampleAnswer": "The Stack stores function call frames, local variables, and return addresses with fast contiguous memory allocation. The Heap manages dynamically allocated objects at runtime (e.g. malloc / new) managed by garbage collection or manual free. The Data segment holds initialized/uninitialized static and global variables, and the Text segment holds compiled machine instructions.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_sde_4",
+    "role": "SDE",
+    "category": "SDE General",
+    "difficulty": "medium",
+    "question": "What is the difference between synchronous and asynchronous I/O? How does the Node.js Event Loop work?",
+    "coreConceptsExpected": [
+      "Non-blocking I/O vs thread blocking",
+      "Event Loop phases: timers, pending callbacks, poll, check, close callbacks",
+      "Microtask queue (Promise, process.nextTick) vs Macrotask queue"
+    ],
+    "sampleAnswer": "Synchronous I/O blocks the calling thread until data is returned. Asynchronous I/O registers a callback/promise and delegates execution to the OS kernel or libuv thread pool. The Node.js event loop continuously cycles through phases (timers, poll, check/setImmediate), processing microtask queues (Promises) after every operation.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_sde_5",
+    "role": "SDE",
+    "category": "SDE General",
+    "difficulty": "hard",
+    "question": "Design a Rate Limiter algorithm for an API gateway. Compare Token Bucket, Leaky Bucket, and Sliding Window Log.",
+    "coreConceptsExpected": [
+      "Token Bucket (burst handling, refilling tokens)",
+      "Leaky Bucket (constant output rate)",
+      "Sliding Window Log / Sliding Window Counter (exact precision vs memory footprint)",
+      "Distributed rate limiting with Redis and Lua scripts"
+    ],
+    "sampleAnswer": "Token Bucket maintains a token counter refilled at a constant rate up to capacity; requests consume tokens and allow short bursts. Sliding Window Counter divides time into small segments to prevent border bursts while keeping memory constant. In distributed systems, this is implemented using Redis with atomic Lua scripts.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_sde_6",
+    "role": "SDE",
+    "category": "SDE General",
+    "difficulty": "medium",
+    "question": "What are database indexing best practices and when does an index NOT get used by the query optimizer?",
+    "coreConceptsExpected": [
+      "B+ Tree left-to-right composite index rule",
+      "Functions on indexed columns (e.g. UPPER(name)) causing full table scans",
+      "High selectivity vs low cardinality columns",
+      "Implicit type coercion bypassing indexes"
+    ],
+    "sampleAnswer": "Indexes speed up lookups on high-cardinality columns. However, query optimizers ignore indexes when functions are applied to columns (e.g. WHERE YEAR(created_at) = 2024), when wildcards begin strings (LIKE '%abc'), when implicit type casting occurs, or when the table is so small that a table scan is cheaper.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_sde_7",
+    "role": "SDE",
+    "category": "SDE General",
+    "difficulty": "medium",
+    "question": "Explain what happens during Garbage Collection and compare Reference Counting vs Mark and Sweep.",
+    "coreConceptsExpected": [
+      "Reference Counting limitation with circular references",
+      "Mark and Sweep root graph traversal",
+      "Generational GC (Young / Old generation) in V8 and JVM"
+    ],
+    "sampleAnswer": "Reference counting increments/decrements a count when pointers reference an object, failing on cyclical graphs. Mark-and-Sweep starts from Root objects (global variables, active call stacks), marks all reachable objects, and sweeps away unreachable ones. Modern engines use Generational GC since most objects die young.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_sde_8",
+    "role": "SDE",
+    "category": "SDE General",
+    "difficulty": "hard",
+    "question": "How do you design a robust distributed cache invalidation strategy? Discuss Cache-Aside, Write-Through, and Write-Behind.",
+    "coreConceptsExpected": [
+      "Cache-Aside (application reads cache, on miss reads DB and sets cache; updates write DB and evict cache)",
+      "Write-Through (write to cache and DB synchronously)",
+      "Write-Behind (write to cache immediately, async write to DB)",
+      "Thundering Herd and Cache Stampede mitigation (mutex / probabilistic early expiration)"
+    ],
+    "sampleAnswer": "In Cache-Aside, application checks cache, loads from DB on miss, and deletes cache entries upon DB updates. Write-Through updates cache and DB together for strong consistency. To prevent Cache Stampedes when hot keys expire, we use distributed locks or probabilistically refresh keys before expiration.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_fe_1",
+    "role": "Frontend",
+    "category": "Frontend Engineering",
+    "difficulty": "medium",
+    "question": "Explain the Critical Rendering Path and how modern browsers render HTML, CSS, and JavaScript on screen.",
+    "coreConceptsExpected": [
+      "DOM and CSSOM tree construction",
+      "Render Tree creation",
+      "Layout / Reflow phase",
+      "Paint and Compositing phase",
+      "Render-blocking CSS and JS execution"
+    ],
+    "sampleAnswer": "The browser parses HTML to construct the DOM and CSS to construct the CSSOM. These merge into the Render Tree containing visible elements. The Layout phase calculates exact geometry and pixel coordinates, followed by Painting pixels onto layers, and Compositing layers on the GPU. Scripts without async/defer block HTML parsing.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_fe_2",
+    "role": "Frontend",
+    "category": "Frontend Engineering",
+    "difficulty": "medium",
+    "question": "Explain JavaScript Closures, Lexical Scoping, and practical use cases in real-world frontend applications.",
+    "coreConceptsExpected": [
+      "Lexical environment preservation",
+      "Function bundled with references to outer state",
+      "Data privacy / encapsulation",
+      "Event handlers and memoization / currying"
+    ],
+    "sampleAnswer": "A closure is the combination of a function bundled together with references to its surrounding lexical environment, allowing an inner function to access an outer function scope even after the outer function has returned. Common uses include creating private state, factory functions, debounce/throttle utilities, and event handlers.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_fe_3",
+    "role": "Frontend",
+    "category": "Frontend Engineering",
+    "difficulty": "medium",
+    "question": "What is the difference between Debouncing and Throttling? Provide code implementation details.",
+    "coreConceptsExpected": [
+      "Debounce: delays execution until pause in invocations (e.g. search input)",
+      "Throttle: guarantees execution at most once per fixed time interval (e.g. scroll/resize)",
+      "ClearTimeout vs timestamp comparison"
+    ],
+    "sampleAnswer": "Debouncing bunches multiple sequential events and only executes the function after a specified delay since the last call (ideal for search autocomplete). Throttling enforces a maximum frequency of executions over time (ideal for window resize and scroll listeners).",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_fe_4",
+    "role": "Frontend",
+    "category": "Frontend Engineering",
+    "difficulty": "hard",
+    "question": "How does React Reconciliation and the Virtual DOM Diffing algorithm work? Explain the role of keys.",
+    "coreConceptsExpected": [
+      "Virtual DOM tree representation",
+      "Heuristic O(N) diffing algorithm",
+      "Component element type comparisons",
+      "Unique stable keys preventing unnecessary re-mounts and state loss"
+    ],
+    "sampleAnswer": "React maintains a Virtual DOM in memory. When state changes, a new tree is created and diffed against the previous tree using an O(N) heuristic. If element types differ, the old subtree is destroyed and rebuilt. Keys provide unique persistent identities to array items so React can identify insertions, moves, and deletions without re-rendering every item.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_fe_5",
+    "role": "Frontend",
+    "category": "Frontend Engineering",
+    "difficulty": "medium",
+    "question": "Explain Cross-Origin Resource Sharing (CORS), preflight OPTIONS requests, and how to fix CORS issues safely.",
+    "coreConceptsExpected": [
+      "Same-Origin Policy (Protocol, Domain, Port)",
+      "Simple requests vs Preflight OPTIONS requests",
+      "Access-Control-Allow-Origin, Headers, Methods headers",
+      "Why client-side disabling is insecure and server configuration is proper"
+    ],
+    "sampleAnswer": "CORS is a browser security mechanism enforcing the Same-Origin Policy. When a client makes a non-simple cross-origin request (custom headers, PUT/DELETE, JSON content-type), the browser sends a preflight OPTIONS request. The server must respond with matching Access-Control-Allow-Origin headers.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_fe_6",
+    "role": "Frontend",
+    "category": "Frontend Engineering",
+    "difficulty": "medium",
+    "question": "Compare Server-Side Rendering (SSR), Client-Side Rendering (CSR), and Static Site Generation (SSG) in terms of SEO, TTI, and TTFB.",
+    "coreConceptsExpected": [
+      "CSR: fast transitions, poor initial TTFB/SEO without hydration",
+      "SSR: excellent SEO and fast FCP, higher TTFB server load",
+      "SSG: instant TTFB via CDN, static pre-building at compile time",
+      "Hydration cost"
+    ],
+    "sampleAnswer": "CSR downloads minimal HTML and renders views in the browser via JavaScript, giving rich interactivity but delayed First Contentful Paint. SSR renders HTML on the server per request, boosting SEO and FCP with slightly higher TTFB. SSG pre-generates static HTML at build time for instant CDN delivery.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_fe_7",
+    "role": "Frontend",
+    "category": "Frontend Engineering",
+    "difficulty": "hard",
+    "question": "How do you optimize Core Web Vitals (LCP, INP/FID, CLS) on a high-traffic production web application?",
+    "coreConceptsExpected": [
+      "LCP: image optimization (WebP/AVIF, priority loading, CDN)",
+      "INP: breaking long tasks with requestIdleCallback/web workers",
+      "CLS: reserving dimensions for images/ads, font display swap",
+      "Code splitting and bundle analysis"
+    ],
+    "sampleAnswer": "To optimize LCP, preload hero images, use responsive modern image formats, and utilize edge CDNs. To improve INP, break long JavaScript tasks into smaller chunks and offload heavy computation to Web Workers. To eliminate CLS, always set explicit width and height attributes on images and embed elements.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_fe_8",
+    "role": "Frontend",
+    "category": "Frontend Engineering",
+    "difficulty": "medium",
+    "question": "Explain Web Security vulnerabilities: XSS (Cross-Site Scripting) and CSRF (Cross-Site Request Forgery) and their defenses.",
+    "coreConceptsExpected": [
+      "Stored, Reflected, DOM XSS; input sanitization & Content Security Policy (CSP)",
+      "CSRF attacks leveraging ambient cookies",
+      "SameSite cookies, Anti-CSRF tokens, Custom headers"
+    ],
+    "sampleAnswer": "XSS occurs when malicious scripts are injected into trusted sites; prevent it with output encoding, DOM sanitization, and Content Security Policy (CSP) headers. CSRF tricks authenticated users into submitting unauthorized commands; prevent it using SameSite=Strict/Lax cookies and anti-CSRF challenge tokens.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_be_1",
+    "role": "Backend",
+    "category": "Backend Engineering",
+    "difficulty": "medium",
+    "question": "Explain the principles of RESTful API design, idempotent HTTP methods, and proper HTTP status code usage.",
+    "coreConceptsExpected": [
+      "Resource-oriented URLs (nouns, plural)",
+      "Idempotency: GET, PUT, DELETE, HEAD vs Non-idempotent POST",
+      "Status codes: 200, 201, 204, 400, 401, 403, 404, 409, 422, 500"
+    ],
+    "sampleAnswer": "REST organizes endpoints around resources with clear HTTP verbs. Idempotent methods (GET, PUT, DELETE) produce the exact same server state regardless of whether called once or ten times. POST creates new state. APIs must return semantic status codes like 201 for creation and 422 for validation errors.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_be_2",
+    "role": "Backend",
+    "category": "Backend Engineering",
+    "difficulty": "hard",
+    "question": "How do you implement scalable authentication and authorization? Compare JWT vs Session-based authentication.",
+    "coreConceptsExpected": [
+      "Stateful sessions (server memory / Redis store, cookie revocation)",
+      "Stateless JWTs (header, payload, signature, expiration)",
+      "Refresh token rotation and revocation strategies",
+      "RBAC (Role Based Access Control)"
+    ],
+    "sampleAnswer": "Session-based auth stores session IDs in Redis with server-side revocation capability. JWTs are stateless tokens signed with HMAC or RSA containing claims, reducing DB lookups on distributed microservices. Best practice is short-lived access tokens (15 mins) paired with rotating refresh tokens stored securely in HTTP-only cookies.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_be_3",
+    "role": "Backend",
+    "category": "Backend Engineering",
+    "difficulty": "hard",
+    "question": "How do message queues (Kafka / RabbitMQ) decouple backend services? Explain at-least-once vs exactly-once delivery.",
+    "coreConceptsExpected": [
+      "Producer-Consumer / Pub-Sub pattern",
+      "Asynchronous processing and backpressure absorption",
+      "Consumer offsets, acknowledgments, dead letter queues (DLQ)",
+      "Idempotent consumers to handle at-least-once delivery"
+    ],
+    "sampleAnswer": "Message queues decouple producers from consumers, buffering traffic spikes and enabling asynchronous background processing. Most distributed brokers guarantee at-least-once delivery. To achieve effective exactly-once processing, consumers must be implemented idempotently using deduplication keys or unique transaction IDs.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_be_4",
+    "role": "Backend",
+    "category": "Backend Engineering",
+    "difficulty": "medium",
+    "question": "Explain database connection pooling, why it is critical for backend scale, and what causes pool exhaustion.",
+    "coreConceptsExpected": [
+      "TCP handshake and authentication overhead per DB connection",
+      "Fixed pool of pre-established reusable connections",
+      "Long-running queries and missing release calls causing starvation",
+      "Pool sizing guidelines"
+    ],
+    "sampleAnswer": "Creating database connections requires costly TCP and TLS handshakes. Connection pooling maintains a pool of pre-warmed connections that workers borrow and return. Pool exhaustion happens when queries are slow, transactions remain uncommitted, or code fails to release connections back to the pool in finally blocks.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_be_5",
+    "role": "Backend",
+    "category": "Backend Engineering",
+    "difficulty": "hard",
+    "question": "How do you handle database migrations safely in zero-downtime production environments?",
+    "coreConceptsExpected": [
+      "Expand and Contract / Blue-Green migration pattern",
+      "Never renaming/dropping columns in active use",
+      "Backwards-compatible schema changes",
+      "Async background data backfills before switching reads"
+    ],
+    "sampleAnswer": "Zero-downtime migrations follow the Expand-and-Contract pattern: first add a new nullable column or table, update application code to write to both old and new schemas (dual-write), backfill historical records in background batches, update reads to the new column, and finally deprecate and drop the old column.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_be_6",
+    "role": "Backend",
+    "category": "Backend Engineering",
+    "difficulty": "medium",
+    "question": "What is the N+1 query problem in ORMs and how do you detect and fix it?",
+    "coreConceptsExpected": [
+      "Executing 1 parent query followed by N child queries in loops",
+      "Eager loading with JOIN or IN clauses (e.g. includes/preload)",
+      "DataLoader pattern in GraphQL / Batch loading"
+    ],
+    "sampleAnswer": "The N+1 problem occurs when an ORM fetches a list of N parent records, and then executes N individual queries to fetch child associations inside a loop. It is fixed by eager loading associations using JOINs or batching child lookups with an `IN (...)` query.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_be_7",
+    "role": "Backend",
+    "category": "Backend Engineering",
+    "difficulty": "hard",
+    "question": "Explain Distributed Transactions and the Saga Pattern (Choreography vs Orchestration).",
+    "coreConceptsExpected": [
+      "Limitations of 2PC (Two-Phase Commit) in microservices",
+      "Compensating transactions on failure",
+      "Choreography (event-driven pub/sub)",
+      "Orchestration (centralized workflow coordinator)"
+    ],
+    "sampleAnswer": "Distributed transactions across microservices cannot rely on standard ACID 2PC due to high latency and locking. The Saga pattern breaks transactions into a sequence of local transactions. If one step fails, the Saga executes compensating transactions backwards. Choreography uses event pub/sub, while Orchestration uses a central coordinator.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_be_8",
+    "role": "Backend",
+    "category": "Backend Engineering",
+    "difficulty": "medium",
+    "question": "How do you prevent SQL Injection and Prompt Injection attacks in production APIs?",
+    "coreConceptsExpected": [
+      "Parameterized queries / prepared statements for SQL",
+      "Input validation with schemas like Zod",
+      "Prompt Injection: treating untrusted text as isolated data with delimiters, strict system instructions, few-shot boundaries"
+    ],
+    "sampleAnswer": "For SQL injection, always use parameterized queries and prepared statements so user inputs are treated as literal values, never executable syntax. For prompt injection, enclose user text and uploaded documents in distinct delimiter tags (e.g. <user_data>), instruct the LLM explicitly to treat content strictly as raw payload, and validate all LLM outputs against strict schemas.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_aiml_1",
+    "role": "AI-ML",
+    "category": "AI-ML Engineering",
+    "difficulty": "medium",
+    "question": "Explain the bias-variance tradeoff and how regularization (L1 Lasso vs L2 Ridge) helps combat overfitting.",
+    "coreConceptsExpected": [
+      "High Bias (underfitting) vs High Variance (overfitting)",
+      "L1 Lasso: adds absolute value penalty leading to sparse feature selection",
+      "L2 Ridge: adds squared weight penalty shrinking weights towards zero",
+      "Cross-validation"
+    ],
+    "sampleAnswer": "High bias causes underfitting from overly simplistic models; high variance causes overfitting by memorizing training noise. Regularization adds a penalty term to the loss function. L1 (Lasso) drives non-essential feature weights to exactly zero enabling feature selection. L2 (Ridge) penalizes large weights proportionally, smoothing model complexity.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_aiml_2",
+    "role": "AI-ML",
+    "category": "AI-ML Engineering",
+    "difficulty": "hard",
+    "question": "How does the Transformer Self-Attention mechanism work mathematically? Explain Query, Key, and Value matrices.",
+    "coreConceptsExpected": [
+      "Attention(Q, K, V) = softmax(Q * K^T / sqrt(d_k)) * V",
+      "Dot product similarity scoring",
+      "Scaling factor sqrt(d_k) preventing vanishing gradients in softmax",
+      "Multi-Head Attention capturing diverse representation subspaces"
+    ],
+    "sampleAnswer": "Self-attention maps input embeddings into Query (Q), Key (K), and Value (V) projections. The attention score between tokens is computed as softmax(Q * K^T / sqrt(d_k)). Multiplying this weight matrix by V creates contextualized representations. Multi-head attention allows the model to simultaneously attend to information from different representation subspaces.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_aiml_3",
+    "role": "AI-ML",
+    "category": "AI-ML Engineering",
+    "difficulty": "medium",
+    "question": "Explain Retrieval-Augmented Generation (RAG) architecture and how chunking strategies impact retrieval accuracy.",
+    "coreConceptsExpected": [
+      "Embedding models and Vector Databases (cosine similarity / HNSW)",
+      "Chunk size and overlap trade-offs",
+      "Dense retrieval vs Hybrid search (BM25 + vector)",
+      "Re-ranking with Cross-Encoders"
+    ],
+    "sampleAnswer": "RAG retrieves external knowledge chunks and injects them into LLM prompt context to ground generation in facts. Documents are chunked with overlap (e.g. 500 tokens with 50 token overlap). Chunks are embedded and indexed in a vector DB. Hybrid search combining BM25 keyword matching with dense vector similarity followed by a cross-encoder re-ranker yields highest retrieval accuracy.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_aiml_4",
+    "role": "AI-ML",
+    "category": "AI-ML Engineering",
+    "difficulty": "medium",
+    "question": "Compare Precision, Recall, F1-Score, and ROC-AUC. When is Accuracy misleading in classification tasks?",
+    "coreConceptsExpected": [
+      "Accuracy paradox in imbalanced datasets (e.g. 99% negative fraud class)",
+      "Precision = TP / (TP + FP)",
+      "Recall = TP / (TP + FN)",
+      "F1-Score: harmonic mean of precision and recall",
+      "ROC-AUC: TPR vs FPR across thresholds"
+    ],
+    "sampleAnswer": "Accuracy is misleading on imbalanced datasets where a model predicting only the majority class achieves 99% accuracy while failing completely. Precision measures the proportion of positive identifications that were actually correct. Recall measures the proportion of actual positives identified correctly. F1-score balances both via their harmonic mean.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_aiml_5",
+    "role": "AI-ML",
+    "category": "AI-ML Engineering",
+    "difficulty": "hard",
+    "question": "Explain Parameter-Efficient Fine-Tuning (PEFT) methods, specifically LoRA (Low-Rank Adaptation) and QLoRA.",
+    "coreConceptsExpected": [
+      "Freezing pre-trained base model weights",
+      "Decomposing weight update matrix W = W0 + B * A where rank r << d",
+      "Drastic reduction in trainable parameters and VRAM requirements",
+      "4-bit NormalFloat quantization in QLoRA"
+    ],
+    "sampleAnswer": "Full fine-tuning of large models requires prohibitive GPU memory. LoRA freezes original base weights W0 and represents the update delta as a low-rank matrix product B * A of rank r (e.g. r=8). This reduces trainable parameters by 99% while retaining performance. QLoRA quantizes the frozen base model to 4-bit precision, enabling fine-tuning on consumer GPUs.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  },
+  {
+    "id": "int_aiml_6",
+    "role": "AI-ML",
+    "category": "AI-ML Engineering",
+    "difficulty": "medium",
+    "question": "What are the main causes of Gradient Vanishing and Gradient Exploding in deep neural networks, and how are they solved?",
+    "coreConceptsExpected": [
+      "Chain rule multiplications with derivative values < 1 or > 1 across deep layers",
+      "Activation functions: ReLU / LeakyReLU vs Sigmoid/Tanh",
+      "Batch Normalization and Layer Normalization",
+      "Residual / Skip Connections (ResNets)",
+      "Gradient Clipping"
+    ],
+    "sampleAnswer": "During backpropagation, repeated chain-rule multiplications through deep layers cause gradients to shrink exponentially (vanishing) or grow exponentially (exploding). Solutions include using non-saturating activations like ReLU, adding Skip Connections (ResNet) to allow gradients to flow unimpeded, Layer Normalization, and Gradient Clipping for exploding gradients.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_aiml_7",
+    "role": "AI-ML",
+    "category": "AI-ML Engineering",
+    "difficulty": "medium",
+    "question": "Explain the difference between Temperature, Top-p (Nucleus Sampling), and Top-k in LLM text generation decoding.",
+    "coreConceptsExpected": [
+      "Temperature: scaling logits before softmax (lower = deterministic, higher = creative)",
+      "Top-k: sampling from top k highest probability tokens",
+      "Top-p: sampling from smallest set of tokens whose cumulative probability exceeds p"
+    ],
+    "sampleAnswer": "Temperature divides logits by T before softmax: T near 0 makes greedy deterministic choices, while higher T flattens the distribution for creativity. Top-k filters to the top k candidate tokens. Top-p (nucleus sampling) dynamically selects the smallest subset of candidate tokens whose cumulative probability exceeds p, adapting vocabulary breadth to certainty.",
+    "evaluationCriteria": {
+      "technical": 45,
+      "clarity": 30,
+      "completeness": 25
+    }
+  },
+  {
+    "id": "int_aiml_8",
+    "role": "AI-ML",
+    "category": "AI-ML Engineering",
+    "difficulty": "hard",
+    "question": "How do you evaluate generative AI applications in production beyond static benchmarks? Discuss LLM-as-a-Judge and guardrails.",
+    "coreConceptsExpected": [
+      "LLM-as-a-Judge with calibrated rubric evaluation",
+      "Faithfulness, Answer Relevance, Context Recall (e.g. RAGAS metrics)",
+      "Deterministic guardrails (regex, toxicity classifiers, PII detection)",
+      "Human-in-the-loop validation"
+    ],
+    "sampleAnswer": "Evaluating LLMs in production combines deterministic checks with LLM-as-a-Judge frameworks. We score generation on Faithfulness (hallucination detection against retrieved context), Relevance, and Groundedness using structured rubrics with few-shot calibration. Real-time guardrails sanitize PII and enforce safety boundaries before client response streaming.",
+    "evaluationCriteria": {
+      "technical": 50,
+      "clarity": 30,
+      "completeness": 20
+    }
+  }
+]

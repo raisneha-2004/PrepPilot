@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "test-user-planner-001",
+    "userId": "test-user-planner-001",
+    "targetRole": "SDE",
+    "experienceLevel": "fresher",
+    "dailyHours": 3,
+    "totalDays": 14,
+    "summary": "Targeted preparation roadmap focusing on DSA optimization and CS fundamentals.",
+    "days": [
+      {
+        "id": "day_1",
+        "dayNumber": 1,
+        "dateOffsetDays": 0,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": true,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 1",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 1",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ],
+        "completedAt": "2026-10-02T07:22:46.177Z"
+      },
+      {
+        "id": "day_2",
+        "dayNumber": 2,
+        "dateOffsetDays": 1,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 2",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 2",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_3",
+        "dayNumber": 3,
+        "dateOffsetDays": 2,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 3",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 3",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_4",
+        "dayNumber": 4,
+        "dateOffsetDays": 3,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 4",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 4",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_5",
+        "dayNumber": 5,
+        "dateOffsetDays": 4,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 5",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 5",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_6",
+        "dayNumber": 6,
+        "dateOffsetDays": 5,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 6",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 6",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_7",
+        "dayNumber": 7,
+        "dateOffsetDays": 6,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 7",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 7",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_8",
+        "dayNumber": 8,
+        "dateOffsetDays": 7,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 8",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 8",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_9",
+        "dayNumber": 9,
+        "dateOffsetDays": 8,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 9",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 9",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_10",
+        "dayNumber": 10,
+        "dateOffsetDays": 9,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 10",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 10",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_11",
+        "dayNumber": 11,
+        "dateOffsetDays": 10,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 11",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 11",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_12",
+        "dayNumber": 12,
+        "dateOffsetDays": 11,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 12",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 12",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_13",
+        "dayNumber": 13,
+        "dateOffsetDays": 12,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 13",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 13",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_14",
+        "dayNumber": 14,
+        "dateOffsetDays": 13,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 14",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 14",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      }
+    ],
+    "generatedAt": "2026-10-02T07:22:46.164Z",
+    "createdAt": "2026-09-28T11:48:02.376Z",
+    "updatedAt": "2026-10-02T07:22:46.177Z"
+  },
+  {
+    "id": "user_kwqxdu2op",
+    "userId": "user_kwqxdu2op",
+    "targetRole": "Frontend",
+    "experienceLevel": "fresher",
+    "dailyHours": 7,
+    "totalDays": 14,
+    "summary": "Targeted preparation roadmap focusing on DSA optimization and CS fundamentals.",
+    "days": [
+      {
+        "id": "day_1",
+        "dayNumber": 1,
+        "dateOffsetDays": 0,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 1",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 1",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_2",
+        "dayNumber": 2,
+        "dateOffsetDays": 1,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 2",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 2",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_3",
+        "dayNumber": 3,
+        "dateOffsetDays": 2,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 3",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 3",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_4",
+        "dayNumber": 4,
+        "dateOffsetDays": 3,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 4",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 4",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_5",
+        "dayNumber": 5,
+        "dateOffsetDays": 4,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 5",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 5",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_6",
+        "dayNumber": 6,
+        "dateOffsetDays": 5,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 6",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 6",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_7",
+        "dayNumber": 7,
+        "dateOffsetDays": 6,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 7",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 7",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_8",
+        "dayNumber": 8,
+        "dateOffsetDays": 7,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 8",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 8",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_9",
+        "dayNumber": 9,
+        "dateOffsetDays": 8,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 9",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 9",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_10",
+        "dayNumber": 10,
+        "dateOffsetDays": 9,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 10",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 10",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_11",
+        "dayNumber": 11,
+        "dateOffsetDays": 10,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 11",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 11",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_12",
+        "dayNumber": 12,
+        "dateOffsetDays": 11,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 12",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 12",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_13",
+        "dayNumber": 13,
+        "dateOffsetDays": 12,
+        "focusTopic": "Arrays & Two Pointers",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 13",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 13",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      },
+      {
+        "id": "day_14",
+        "dayNumber": 14,
+        "dateOffsetDays": 13,
+        "focusTopic": "Trees & Binary Search",
+        "estimatedMinutes": 180,
+        "completed": false,
+        "blocks": [
+          {
+            "type": "Learn",
+            "title": "Core Theory - Day 14",
+            "description": "Review foundational patterns and standard complexity limits.",
+            "durationMinutes": 45,
+            "resources": [
+              "PrepPilot Concept Notes",
+              "Visualgo Algorithm Visualizer"
+            ]
+          },
+          {
+            "type": "Practice",
+            "title": "Coding Practice - Day 14",
+            "description": "Solve 2 medium problems focusing on optimal space & time.",
+            "durationMinutes": 75,
+            "problems": [
+              "Two Sum",
+              "Maximum Subarray"
+            ]
+          },
+          {
+            "type": "Quiz",
+            "title": "Checkpoint Quiz",
+            "description": "5 quick conceptual MCQs on today’s topic.",
+            "durationMinutes": 30
+          },
+          {
+            "type": "Revision",
+            "title": "Spaced Recall",
+            "description": "Revise flashcards from 3 days ago.",
+            "durationMinutes": 30
+          }
+        ]
+      }
+    ],
+    "generatedAt": "2026-09-28T12:38:48.223Z",
+    "createdAt": "2026-09-28T12:38:48.223Z",
+    "updatedAt": "2026-09-28T12:38:48.223Z"
+  }
+]

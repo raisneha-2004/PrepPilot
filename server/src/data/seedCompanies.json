@@ -1,0 +1,301 @@
+[
+  {
+    "id": "google",
+    "name": "Google",
+    "tier": "MAANG",
+    "source": "PrepPilot Community Interview Submissions & Historical Hiring Archives",
+    "lastVerified": "2026-06-15",
+    "disclaimer": "community-reported, verify on the official careers page",
+    "pattern": {
+      "rounds": 5,
+      "onlineAssessment": {
+        "durationMinutes": 90,
+        "aptitude": false,
+        "coding": true,
+        "questionsCount": 2,
+        "focusAreas": [
+          "Graphs",
+          "Dynamic Programming",
+          "Complex Data Structures",
+          "Trees"
+        ]
+      },
+      "technicalInterview": {
+        "rounds": 4,
+        "focusAreas": [
+          "Algorithms & Data Structures (DSA)",
+          "System Design (L4+)",
+          "Googliness & Leadership"
+        ],
+        "typicalQuestions": [
+          "Word Ladder II",
+          "Longest Increasing Path in a Matrix",
+          "LRU Cache Design",
+          "Design a Distributed Web Crawler"
+        ]
+      }
+    },
+    "recommendedTopics": [
+      "Graphs",
+      "Dynamic Programming",
+      "Binary Search",
+      "Trees",
+      "System Design"
+    ],
+    "hiringProcess": [
+      "Round 1: Online Assessment / Screening Code Signal (2 LeetCode Medium/Hard problems)",
+      "Round 2: Technical DSA Interview 1 (Algorithms, Trees, Graphs)",
+      "Round 3: Technical DSA Interview 2 (Advanced DP / Optimization)",
+      "Round 4: Technical DSA Interview 3 or Low-Level Design",
+      "Round 5: Googliness & Behavioral Leadership Interview"
+    ]
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "tier": "MAANG",
+    "source": "PrepPilot Community Interview Submissions & Historical Hiring Archives",
+    "lastVerified": "2026-07-20",
+    "disclaimer": "community-reported, verify on the official careers page",
+    "pattern": {
+      "rounds": 4,
+      "onlineAssessment": {
+        "durationMinutes": 90,
+        "aptitude": true,
+        "coding": true,
+        "questionsCount": 2,
+        "focusAreas": [
+          "Arrays & Strings",
+          "Trees & BST",
+          "Work Styles Assessment (Leadership Principles)"
+        ]
+      },
+      "technicalInterview": {
+        "rounds": 3,
+        "focusAreas": [
+          "16 Leadership Principles (STAR method required)",
+          "Data Structures (Trees, Heaps, HashMaps)",
+          "System Design & Object-Oriented Design"
+        ],
+        "typicalQuestions": [
+          "Number of Islands",
+          "Course Schedule",
+          "Design Amazon Locker System",
+          "Customer Obsession STAR Scenarios"
+        ]
+      }
+    },
+    "recommendedTopics": [
+      "Trees",
+      "Graphs",
+      "Arrays",
+      "Leadership Principles",
+      "Object-Oriented Design"
+    ],
+    "hiringProcess": [
+      "Round 1: Online Assessment (2 Coding Problems + Work Styles Behavioral Assessment)",
+      "Round 2: Technical Interview (DSA + 2 Leadership Principles deep dives)",
+      "Round 3: Technical Interview (Algorithms & Problem Solving + 2 LPs)",
+      "Round 4: The Bar Raiser Round (System / LLD Design + Behavioral)"
+    ]
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "tier": "MAANG",
+    "source": "PrepPilot Community Interview Submissions & Historical Hiring Archives",
+    "lastVerified": "2026-05-10",
+    "disclaimer": "community-reported, verify on the official careers page",
+    "pattern": {
+      "rounds": 4,
+      "onlineAssessment": {
+        "durationMinutes": 70,
+        "aptitude": false,
+        "coding": true,
+        "questionsCount": 3,
+        "focusAreas": [
+          "Arrays",
+          "Strings",
+          "Greedy",
+          "Linked Lists"
+        ]
+      },
+      "technicalInterview": {
+        "rounds": 3,
+        "focusAreas": [
+          "Clean Coding & Code Quality",
+          "Data Structures (Linked Lists, Binary Trees, Stacks)",
+          "CS Fundamentals (OS, Threads, Memory)"
+        ],
+        "typicalQuestions": [
+          "Reverse Nodes in k-Group",
+          "Validate Binary Search Tree",
+          "Design TinyURL / Rate Limiter",
+          "Explain Virtual Memory and Paging"
+        ]
+      }
+    },
+    "recommendedTopics": [
+      "Linked Lists",
+      "Trees",
+      "Strings",
+      "OS Fundamentals",
+      "OOP"
+    ],
+    "hiringProcess": [
+      "Round 1: Codility Online Assessment (3 Medium Coding Challenges)",
+      "Round 2: Technical Round 1 (Problem Solving & Code Modularity)",
+      "Round 3: Technical Round 2 (Data Structures & CS Core OS/DBMS)",
+      "Round 4: AA (As Appropriate / Partner Director Round) & Cultural Fit"
+    ]
+  },
+  {
+    "id": "tcs",
+    "name": "TCS (Tata Consultancy Services - Ninja & Digital/Prime)",
+    "tier": "Service",
+    "source": "PrepPilot Community Interview Submissions & Historical Hiring Archives",
+    "lastVerified": "2026-08-01",
+    "disclaimer": "community-reported, verify on the official careers page",
+    "pattern": {
+      "rounds": 3,
+      "onlineAssessment": {
+        "durationMinutes": 120,
+        "aptitude": true,
+        "coding": true,
+        "questionsCount": 2,
+        "focusAreas": [
+          "Quantitative Aptitude",
+          "Logical Reasoning",
+          "Verbal Ability",
+          "Basic to Medium Coding (Arrays, Math, Strings)"
+        ]
+      },
+      "technicalInterview": {
+        "rounds": 2,
+        "focusAreas": [
+          "Core Java / Python / C++",
+          "SQL Queries (Joins, Aggregates)",
+          "OOP Principles",
+          "Final Year Academic Project"
+        ],
+        "typicalQuestions": [
+          "Explain Polymorphism with examples",
+          "Write SQL query for 2nd highest salary",
+          "Reverse a linked list",
+          "Difference between Process and Thread"
+        ]
+      }
+    },
+    "recommendedTopics": [
+      "Quantitative Aptitude",
+      "Logical Reasoning",
+      "SQL",
+      "OOP",
+      "Arrays"
+    ],
+    "hiringProcess": [
+      "Round 1: TCS NQT National Qualifier Test (Quant, Verbal, Reasoning, Coding)",
+      "Round 2: Technical Interview (Core CS, Coding, Project deep-dive)",
+      "Round 3: Managerial & HR Interview (Communication, Willingness to relocate, Work ethics)"
+    ]
+  },
+  {
+    "id": "infosys",
+    "name": "Infosys (Specialist Programmer & DSE / SE)",
+    "tier": "Service",
+    "source": "PrepPilot Community Interview Submissions & Historical Hiring Archives",
+    "lastVerified": "2026-08-14",
+    "disclaimer": "community-reported, verify on the official careers page",
+    "pattern": {
+      "rounds": 3,
+      "onlineAssessment": {
+        "durationMinutes": 100,
+        "aptitude": true,
+        "coding": true,
+        "questionsCount": 3,
+        "focusAreas": [
+          "Mathematical Aptitude",
+          "Data Interpretation",
+          "Dynamic Programming / Greedy (HackWithInfy / SP Track)"
+        ]
+      },
+      "technicalInterview": {
+        "rounds": 2,
+        "focusAreas": [
+          "Data Structures (Arrays, Trees, Graphs)",
+          "DBMS & Normalization",
+          "Computer Networks (TCP/IP)",
+          "OOP Principles"
+        ],
+        "typicalQuestions": [
+          "Explain 3NF Normalization",
+          "Implement Bubble vs Quick Sort",
+          "Explain OSI 7 Layers",
+          "Project architecture overview"
+        ]
+      }
+    },
+    "recommendedTopics": [
+      "Quantitative Aptitude",
+      "DBMS",
+      "Computer Networks",
+      "Dynamic Programming",
+      "Strings"
+    ],
+    "hiringProcess": [
+      "Round 1: InfyTQ / Online Test (Aptitude & Coding questions)",
+      "Round 2: Technical Interview (Algorithms, Data Structures, CS Fundamentals)",
+      "Round 3: HR Interview (Behavioral, Teamwork, Relocation)"
+    ]
+  },
+  {
+    "id": "flipkart",
+    "name": "Flipkart",
+    "tier": "Tier-1",
+    "source": "PrepPilot Community Interview Submissions & Historical Hiring Archives",
+    "lastVerified": "2026-06-30",
+    "disclaimer": "community-reported, verify on the official careers page",
+    "pattern": {
+      "rounds": 4,
+      "onlineAssessment": {
+        "durationMinutes": 90,
+        "aptitude": false,
+        "coding": true,
+        "questionsCount": 3,
+        "focusAreas": [
+          "Arrays",
+          "Dynamic Programming",
+          "Graph Algorithms",
+          "Trie / Segment Trees"
+        ]
+      },
+      "technicalInterview": {
+        "rounds": 3,
+        "focusAreas": [
+          "Machine Coding Round (2 hours working object-oriented code with unit tests)",
+          "Data Structures & Algorithms",
+          "System Architecture & Problem Solving"
+        ],
+        "typicalQuestions": [
+          "Machine Coding: Design Splitwise / Snake and Ladder / In-Memory Queue",
+          "Coin Change",
+          "Median from Data Stream",
+          "Design Flash Sale Inventory"
+        ]
+      }
+    },
+    "recommendedTopics": [
+      "Dynamic Programming",
+      "Graphs",
+      "Object-Oriented Design",
+      "Machine Coding",
+      "Arrays"
+    ],
+    "hiringProcess": [
+      "Round 1: Online Coding Challenge (3 DSA Problems)",
+      "Round 2: Machine Coding Round (90-120 mins live object-oriented implementation)",
+      "Round 3: Problem Solving & Data Structures Round",
+      "Round 4: Hiring Manager / Cultural Fit Round"
+    ]
+  }
+]

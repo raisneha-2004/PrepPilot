@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user_b6d3e5fe",
+    "name": "Sneha Rai",
+    "email": "sneha@example.com",
+    "passwordHash": "564f71cb8bee32a5a842c74e2c2763cf7ecd403cdab16240033bfc1a4a9ecb63",
+    "createdAt": "2026-10-02T07:22:16.314Z",
+    "updatedAt": "2026-10-02T07:22:16.315Z"
+  },
+  {
+    "id": "user_432107bf",
+    "name": "Sneha",
+    "email": "raisneha20052004@gmail.com",
+    "passwordHash": "6e3450ff8ec518da55571fd5fe713a7d535f8e866b5b74d17a4b2aa724b3fdc8",
+    "createdAt": "2026-10-02T07:34:35.075Z",
+    "updatedAt": "2026-10-02T07:34:35.092Z"
+  }
+]

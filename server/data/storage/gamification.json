@@ -1,0 +1,363 @@
+[
+  {
+    "id": "test-user-revision-001",
+    "userId": "test-user-revision-001",
+    "xp": 555,
+    "currentStreak": 1,
+    "longestStreak": 2,
+    "lastActiveDate": "2026-10-02",
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 21,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {
+        "Arrays & Two Pointers": 21
+      }
+    },
+    "createdAt": "2026-09-28T11:48:02.178Z",
+    "updatedAt": "2026-10-02T07:22:46.063Z",
+    "streakFreezes": 1,
+    "lastCompletedDate": "2026-10-02"
+  },
+  {
+    "id": "test-integration-user-123",
+    "userId": "test-integration-user-123",
+    "xp": 1765,
+    "currentStreak": 1,
+    "longestStreak": 2,
+    "lastActiveDate": "2026-10-02",
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 127,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {
+        "Quantitative Aptitude": 127
+      }
+    },
+    "createdAt": "2026-09-28T11:48:09.326Z",
+    "updatedAt": "2026-10-02T07:22:47.853Z",
+    "streakFreezes": 1,
+    "lastCompletedDate": "2026-10-02"
+  },
+  {
+    "id": "user_kwqxdu2op",
+    "userId": "user_kwqxdu2op",
+    "xp": 0,
+    "currentStreak": 1,
+    "longestStreak": 1,
+    "lastActiveDate": "2026-09-28",
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 0,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {}
+    },
+    "createdAt": "2026-09-28T12:19:08.562Z",
+    "updatedAt": "2026-09-28T12:38:33.617Z"
+  },
+  {
+    "id": "user_44il5hkmh",
+    "userId": "user_44il5hkmh",
+    "xp": 0,
+    "currentStreak": 0,
+    "longestStreak": 0,
+    "lastActiveDate": null,
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 0,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {}
+    },
+    "createdAt": "2026-09-28T12:19:24.249Z",
+    "updatedAt": "2026-09-28T12:19:24.249Z"
+  },
+  {
+    "id": "user_test_scoring",
+    "userId": "user_test_scoring",
+    "xp": 295,
+    "currentStreak": 1,
+    "longestStreak": 2,
+    "lastActiveDate": "2026-10-02",
+    "earnedBadges": [
+      "first_step"
+    ],
+    "stats": {
+      "totalQuestionsSolved": 7,
+      "dsaSolved": 0,
+      "aptitudeSolved": 7,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 14,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {
+        "Verbal Ability": 3,
+        "Number Series": 2,
+        "Quantitative Aptitude": 2,
+        "Syllogisms": 1,
+        "Profit & Loss": 2,
+        "Logical Reasoning": 2,
+        "Speed & Distance": 2
+      }
+    },
+    "createdAt": "2026-09-28T13:02:51.430Z",
+    "updatedAt": "2026-10-02T07:22:46.267Z",
+    "streakFreezes": 1,
+    "lastCompletedDate": "2026-10-02"
+  },
+  {
+    "id": "2b1955e9-b386-4955-8c3b-3188dd02f965",
+    "userId": "2b1955e9-b386-4955-8c3b-3188dd02f965",
+    "xp": 30,
+    "currentStreak": 1,
+    "longestStreak": 1,
+    "lastActiveDate": "2026-09-28",
+    "earnedBadges": [
+      "first_step"
+    ],
+    "stats": {
+      "totalQuestionsSolved": 1,
+      "dsaSolved": 0,
+      "aptitudeSolved": 1,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 1,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {
+        "Probability & Permutations": 1
+      }
+    },
+    "createdAt": "2026-09-28T13:29:18.667Z",
+    "updatedAt": "2026-09-28T13:29:18.719Z"
+  },
+  {
+    "id": "test_user_scoring",
+    "userId": "test_user_scoring",
+    "xp": 555,
+    "currentStreak": 1,
+    "longestStreak": 2,
+    "lastActiveDate": "2026-10-02",
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 14,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {
+        "Quantitative Aptitude": 1,
+        "Logical Reasoning": 4,
+        "DBMS": 1,
+        "SQL": 1,
+        "Data Interpretation": 1,
+        "Verbal Ability": 1,
+        "DSA": 2,
+        "Number Series": 2,
+        "Operating Systems": 1
+      }
+    },
+    "createdAt": "2026-09-28T13:33:54.043Z",
+    "updatedAt": "2026-10-02T07:10:40.368Z",
+    "streakFreezes": 1,
+    "lastCompletedDate": "2026-10-02"
+  },
+  {
+    "id": "045e1a83-b555-4cb3-ad79-c30d23a0d629",
+    "userId": "045e1a83-b555-4cb3-ad79-c30d23a0d629",
+    "xp": 280,
+    "currentStreak": 1,
+    "longestStreak": 1,
+    "lastActiveDate": "2026-09-28",
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 36,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {
+        "Verbal Ability": 2,
+        "Data Interpretation": 2,
+        "Quantitative Aptitude": 1,
+        "Logical Reasoning": 2,
+        "Number Series": 1,
+        "SQL": 4,
+        "DBMS": 3,
+        "DSA": 2,
+        "Operating Systems": 2,
+        "Computer Networks": 1,
+        "OOP": 2,
+        "JavaScript": 8,
+        "SDE": 6
+      }
+    },
+    "createdAt": "2026-09-28T13:40:08.725Z",
+    "updatedAt": "2026-09-28T13:40:08.922Z"
+  },
+  {
+    "id": "1d287608-f36f-4d9c-96d1-fbbdf4393ffe",
+    "userId": "1d287608-f36f-4d9c-96d1-fbbdf4393ffe",
+    "xp": 230,
+    "currentStreak": 1,
+    "longestStreak": 1,
+    "lastActiveDate": "2026-09-28",
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 36,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {
+        "Data Interpretation": 1,
+        "Number Series": 2,
+        "Verbal Ability": 1,
+        "Quantitative Aptitude": 3,
+        "Logical Reasoning": 1,
+        "Operating Systems": 4,
+        "DSA": 2,
+        "SQL": 1,
+        "OOP": 1,
+        "JavaScript": 10,
+        "Frontend": 10
+      }
+    },
+    "createdAt": "2026-09-28T13:40:08.816Z",
+    "updatedAt": "2026-09-28T13:40:09.024Z"
+  },
+  {
+    "id": "663a083c-637e-42ea-b8ef-78074e6e257d",
+    "userId": "663a083c-637e-42ea-b8ef-78074e6e257d",
+    "xp": 170,
+    "currentStreak": 1,
+    "longestStreak": 1,
+    "lastActiveDate": "2026-09-28",
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 36,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {
+        "Data Interpretation": 3,
+        "Quantitative Aptitude": 2,
+        "Verbal Ability": 3,
+        "DSA": 3,
+        "Operating Systems": 1,
+        "DBMS": 3,
+        "SQL": 2,
+        "OOP": 1,
+        "JavaScript": 8,
+        "Backend": 10
+      }
+    },
+    "createdAt": "2026-09-28T13:40:08.857Z",
+    "updatedAt": "2026-09-28T13:40:09.155Z"
+  },
+  {
+    "id": "e807ebc6-147e-4408-bd61-c7af8799f1c9",
+    "userId": "e807ebc6-147e-4408-bd61-c7af8799f1c9",
+    "xp": 160,
+    "currentStreak": 1,
+    "longestStreak": 1,
+    "lastActiveDate": "2026-09-28",
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 36,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {
+        "Verbal Ability": 1,
+        "Logical Reasoning": 2,
+        "Data Interpretation": 2,
+        "Quantitative Aptitude": 2,
+        "Number Series": 1,
+        "Operating Systems": 3,
+        "DBMS": 1,
+        "OOP": 2,
+        "SQL": 2,
+        "Python": 10,
+        "AI/ML": 10
+      }
+    },
+    "createdAt": "2026-09-28T13:40:08.912Z",
+    "updatedAt": "2026-09-28T13:40:09.270Z"
+  },
+  {
+    "id": "test-user-readiness-001",
+    "userId": "test-user-readiness-001",
+    "xp": 0,
+    "currentStreak": 0,
+    "longestStreak": 0,
+    "lastActiveDate": null,
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 0,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {}
+    },
+    "createdAt": "2026-09-28T13:42:53.569Z",
+    "updatedAt": "2026-09-28T13:42:53.569Z"
+  },
+  {
+    "id": "user_432107bf",
+    "userId": "user_432107bf",
+    "xp": 0,
+    "currentStreak": 0,
+    "longestStreak": 0,
+    "streakFreezes": 1,
+    "lastActiveDate": null,
+    "lastCompletedDate": null,
+    "freezeUsedNotice": null,
+    "earnedBadges": [],
+    "stats": {
+      "totalQuestionsSolved": 0,
+      "dsaSolved": 0,
+      "aptitudeSolved": 0,
+      "csSolved": 0,
+      "mockInterviewsCompleted": 0,
+      "revisionSessionsCompleted": 0,
+      "dailyChallengesCompleted": 0,
+      "topicCounts": {}
+    },
+    "createdAt": "2026-10-02T07:34:36.357Z",
+    "updatedAt": "2026-10-02T07:34:36.357Z"
+  }
+]

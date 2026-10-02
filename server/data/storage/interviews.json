@@ -1,0 +1,299 @@
+[
+  {
+    "id": "4c7159f0-d20e-4207-bae3-53273a41b1f4",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-09-28T11:48:09.430Z",
+    "createdAt": "2026-09-28T11:48:09.432Z",
+    "updatedAt": "2026-09-28T11:48:09.432Z"
+  },
+  {
+    "id": "9097aed2-434d-4399-9f1a-e74beefca9b8",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-09-28T11:51:08.843Z",
+    "createdAt": "2026-09-28T11:51:08.844Z",
+    "updatedAt": "2026-09-28T11:51:08.844Z"
+  },
+  {
+    "id": "08df0c7e-1b09-4ee1-9e6e-4c9c3fd53011",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-09-28T12:03:02.443Z",
+    "createdAt": "2026-09-28T12:03:02.447Z",
+    "updatedAt": "2026-09-28T12:03:02.447Z"
+  },
+  {
+    "id": "cb5a8bba-57ac-47c7-95a2-b06a4dee81a9",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-09-28T13:02:59.296Z",
+    "createdAt": "2026-09-28T13:02:59.299Z",
+    "updatedAt": "2026-09-28T13:02:59.299Z"
+  },
+  {
+    "id": "ad8f1f64-4e27-432f-ac73-1074d3342f7f",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-09-28T13:08:31.817Z",
+    "createdAt": "2026-09-28T13:08:31.827Z",
+    "updatedAt": "2026-09-28T13:08:31.827Z"
+  },
+  {
+    "id": "f6741456-7197-47eb-a73c-b6004ed0bb66",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-09-28T13:33:59.476Z",
+    "createdAt": "2026-09-28T13:33:59.480Z",
+    "updatedAt": "2026-09-28T13:33:59.480Z"
+  },
+  {
+    "id": "1b7eba65-d4db-4d6d-9659-7c616ff25c70",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-09-28T13:42:59.821Z",
+    "createdAt": "2026-09-28T13:42:59.825Z",
+    "updatedAt": "2026-09-28T13:42:59.825Z"
+  },
+  {
+    "id": "e34ef51b-54f7-4614-813d-d8dc9319c0cc",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-09-29T09:45:51.382Z",
+    "createdAt": "2026-09-29T09:45:51.402Z",
+    "updatedAt": "2026-09-29T09:45:51.402Z"
+  },
+  {
+    "id": "79fdc376-d702-4c0d-968c-ed3ca0d9d2d2",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-09-29T09:50:01.683Z",
+    "createdAt": "2026-09-29T09:50:01.687Z",
+    "updatedAt": "2026-09-29T09:50:01.687Z"
+  },
+  {
+    "id": "640d6f4a-1e54-47d1-9076-fb1fb6de9a1d",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-10-02T07:10:45.294Z",
+    "createdAt": "2026-10-02T07:10:45.297Z",
+    "updatedAt": "2026-10-02T07:10:45.297Z"
+  },
+  {
+    "id": "d162999a-1aca-4cf4-b711-0264366aa399",
+    "userId": "test-integration-user-123",
+    "role": "SDE",
+    "difficulty": "medium",
+    "resumeId": null,
+    "status": "active",
+    "currentQuestionIndex": 0,
+    "questions": [
+      {
+        "id": "q_1",
+        "questionNumber": 1,
+        "question": "Explain how you would design an in-memory cache with an LRU eviction policy.",
+        "category": "System Design",
+        "expectedCoreConcepts": [
+          "Doubly Linked List + Hash Map",
+          "O(1) get and put",
+          "Node eviction and promotion"
+        ]
+      }
+    ],
+    "answers": [],
+    "evaluations": [],
+    "startedAt": "2026-10-02T07:22:47.815Z",
+    "createdAt": "2026-10-02T07:22:47.817Z",
+    "updatedAt": "2026-10-02T07:22:47.817Z"
+  }
+]

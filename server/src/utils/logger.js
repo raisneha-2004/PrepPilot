@@ -1,0 +1,21 @@
+import pino from 'pino';
+import { env } from '../config/env.js';
+
+export const logger = pino({
+  level: env.LOG_LEVEL,
+  redact: {
+    paths: ['req.headers.authorization', 'req.headers["x-api-key"]', 'AI_API_KEY', 'password', 'body.resumeText', 'resumeContent'],
+    censor: '[REDACTED]'
+  },
+  transport:
+    env.NODE_ENV === 'development'
+      ? {
+          target: 'pino-pretty',
+          options: {
+            colorize: true,
+            ignore: 'pid,hostname',
+            translateTime: 'yyyy-mm-dd HH:MM:ss'
+          }
+        }
+      : undefined
+});

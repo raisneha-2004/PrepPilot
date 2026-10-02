@@ -1,0 +1,863 @@
+[
+  {
+    "userId": "test-integration-user-123",
+    "totalQuestions": 600,
+    "totalCorrect": 4,
+    "overallPercentage": 3,
+    "sectionScores": {
+      "aptitude": {
+        "total": 150,
+        "correct": 4,
+        "percentage": 3,
+        "name": "Aptitude"
+      },
+      "core_cs": {
+        "total": 180,
+        "correct": 7,
+        "percentage": 4,
+        "name": "Core CS"
+      },
+      "programming": {
+        "total": 120,
+        "correct": 4,
+        "percentage": 3,
+        "name": "Programming"
+      },
+      "role_specific": {
+        "total": 120,
+        "correct": 3,
+        "percentage": 3,
+        "name": "Role-Specific: SDE"
+      },
+      "professional_skills": {
+        "total": 30,
+        "correct": 2,
+        "percentage": 7,
+        "name": "Professional Skills (Self-Assessment)"
+      }
+    },
+    "strengths": [
+      "Core Problem Solving",
+      "Language Syntax"
+    ],
+    "weaknesses": [
+      "Logical Reasoning (0%)",
+      "Data Interpretation (0%)",
+      "Operating Systems (0%)"
+    ],
+    "timeTakenSeconds": 120,
+    "submittedAt": "2026-10-02T07:22:47.777Z",
+    "createdAt": "2026-09-28T11:48:09.317Z",
+    "updatedAt": "2026-10-02T07:22:47.778Z",
+    "mode": "standard",
+    "role": "SDE",
+    "language": "JavaScript",
+    "technicalTotal": 570,
+    "technicalCorrect": 18,
+    "technicalAccuracy": 3,
+    "professionalSkillsScore": 7,
+    "topicScores": {
+      "Quantitative Aptitude": {
+        "total": 30,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 3
+      },
+      "Logical Reasoning": {
+        "total": 30,
+        "correct": 0,
+        "section": "aptitude",
+        "percentage": 0
+      },
+      "Verbal Ability": {
+        "total": 30,
+        "correct": 2,
+        "section": "aptitude",
+        "percentage": 7
+      },
+      "Data Interpretation": {
+        "total": 30,
+        "correct": 0,
+        "section": "aptitude",
+        "percentage": 0
+      },
+      "Number Series": {
+        "total": 30,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 3
+      },
+      "DSA": {
+        "total": 30,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 3
+      },
+      "OOP": {
+        "total": 30,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 3
+      },
+      "DBMS": {
+        "total": 30,
+        "correct": 2,
+        "section": "core_cs",
+        "percentage": 7
+      },
+      "SQL": {
+        "total": 30,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 3
+      },
+      "Operating Systems": {
+        "total": 30,
+        "correct": 0,
+        "section": "core_cs",
+        "percentage": 0
+      },
+      "Computer Networks": {
+        "total": 30,
+        "correct": 2,
+        "section": "core_cs",
+        "percentage": 7
+      },
+      "Python": {
+        "total": 30,
+        "correct": 0,
+        "section": "programming",
+        "percentage": 0
+      },
+      "JavaScript": {
+        "total": 30,
+        "correct": 4,
+        "section": "programming",
+        "percentage": 13
+      },
+      "Java": {
+        "total": 30,
+        "correct": 0,
+        "section": "programming",
+        "percentage": 0
+      },
+      "C/C++": {
+        "total": 30,
+        "correct": 0,
+        "section": "programming",
+        "percentage": 0
+      },
+      "SDE": {
+        "total": 30,
+        "correct": 3,
+        "section": "role_specific",
+        "percentage": 10
+      },
+      "Frontend": {
+        "total": 30,
+        "correct": 0,
+        "section": "role_specific",
+        "percentage": 0
+      },
+      "Backend": {
+        "total": 30,
+        "correct": 0,
+        "section": "role_specific",
+        "percentage": 0
+      },
+      "AI/ML": {
+        "total": 30,
+        "correct": 0,
+        "section": "role_specific",
+        "percentage": 0
+      },
+      "Situational Judgement": {
+        "total": 0,
+        "correct": 0,
+        "section": "professional_skills",
+        "percentage": 0
+      }
+    },
+    "xpEarned": 100
+  },
+  {
+    "id": "user_kwqxdu2op",
+    "userId": "user_kwqxdu2op",
+    "totalQuestions": 0,
+    "totalCorrect": 0,
+    "overallPercentage": 0,
+    "sectionScores": {},
+    "strengths": [],
+    "weaknesses": [
+      "Advanced Optimization"
+    ],
+    "timeTakenSeconds": 42,
+    "submittedAt": "2026-09-28T12:38:33.450Z",
+    "createdAt": "2026-09-28T12:38:33.453Z",
+    "updatedAt": "2026-09-28T12:38:33.453Z"
+  },
+  {
+    "id": "diag_592b6f5ef917",
+    "userId": "test_user_scoring",
+    "mode": "quick",
+    "role": "SDE",
+    "language": "JavaScript",
+    "totalQuestions": 20,
+    "technicalTotal": 18,
+    "technicalCorrect": 5,
+    "overallPercentage": 28,
+    "technicalAccuracy": 28,
+    "professionalSkillsScore": 0,
+    "sectionScores": {
+      "aptitude": {
+        "total": 4,
+        "correct": 4,
+        "percentage": 100,
+        "name": "aptitude"
+      },
+      "core_cs": {
+        "total": 7,
+        "correct": 1,
+        "percentage": 14,
+        "name": "core_cs"
+      },
+      "programming": {
+        "total": 4,
+        "correct": 0,
+        "percentage": 0,
+        "name": "programming"
+      },
+      "role_specific": {
+        "total": 3,
+        "correct": 0,
+        "percentage": 0,
+        "name": "role_specific"
+      },
+      "professional_skills": {
+        "total": 2,
+        "correct": 0,
+        "percentage": 0,
+        "name": "professional_skills"
+      }
+    },
+    "topicScores": {
+      "Data Interpretation": {
+        "total": 2,
+        "correct": 2,
+        "section": "aptitude",
+        "percentage": 100
+      },
+      "Verbal Ability": {
+        "total": 1,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 100
+      },
+      "Quantitative Aptitude": {
+        "total": 1,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 100
+      },
+      "Computer Networks": {
+        "total": 3,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 33
+      },
+      "DBMS": {
+        "total": 2,
+        "correct": 0,
+        "section": "core_cs",
+        "percentage": 0
+      },
+      "OOP": {
+        "total": 1,
+        "correct": 0,
+        "section": "core_cs",
+        "percentage": 0
+      },
+      "Operating Systems": {
+        "total": 1,
+        "correct": 0,
+        "section": "core_cs",
+        "percentage": 0
+      },
+      "JavaScript": {
+        "total": 4,
+        "correct": 0,
+        "section": "programming",
+        "percentage": 0
+      },
+      "SDE": {
+        "total": 3,
+        "correct": 0,
+        "section": "role_specific",
+        "percentage": 0
+      },
+      "Situational Judgement": {
+        "total": 0,
+        "correct": 0,
+        "section": "professional_skills",
+        "percentage": 0
+      }
+    },
+    "strengths": [
+      "Data Interpretation (100%)",
+      "Verbal Ability (100%)",
+      "Quantitative Aptitude (100%)"
+    ],
+    "weaknesses": [
+      "DBMS (0%)",
+      "OOP (0%)",
+      "Operating Systems (0%)"
+    ],
+    "timeTakenSeconds": 300,
+    "xpEarned": 50,
+    "submittedAt": "2026-10-02T07:22:46.226Z",
+    "createdAt": "2026-09-28T13:33:54.105Z",
+    "updatedAt": "2026-10-02T07:22:46.228Z"
+  },
+  {
+    "id": "diag_0205e080c0bc",
+    "userId": "045e1a83-b555-4cb3-ad79-c30d23a0d629",
+    "mode": "standard",
+    "role": "SDE",
+    "language": "JavaScript",
+    "totalQuestions": 40,
+    "technicalTotal": 36,
+    "technicalCorrect": 18,
+    "overallPercentage": 50,
+    "technicalAccuracy": 50,
+    "professionalSkillsScore": 67,
+    "sectionScores": {
+      "aptitude": {
+        "total": 8,
+        "correct": 4,
+        "percentage": 50,
+        "name": "aptitude"
+      },
+      "core_cs": {
+        "total": 14,
+        "correct": 7,
+        "percentage": 50,
+        "name": "core_cs"
+      },
+      "programming": {
+        "total": 8,
+        "correct": 4,
+        "percentage": 50,
+        "name": "programming"
+      },
+      "role_specific": {
+        "total": 6,
+        "correct": 3,
+        "percentage": 50,
+        "name": "role_specific"
+      },
+      "professional_skills": {
+        "total": 4,
+        "correct": 2,
+        "percentage": 50,
+        "name": "professional_skills"
+      }
+    },
+    "topicScores": {
+      "Data Interpretation": {
+        "total": 2,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 50
+      },
+      "Quantitative Aptitude": {
+        "total": 1,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 100
+      },
+      "Logical Reasoning": {
+        "total": 2,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 50
+      },
+      "Verbal Ability": {
+        "total": 2,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 50
+      },
+      "Number Series": {
+        "total": 1,
+        "correct": 0,
+        "section": "aptitude",
+        "percentage": 0
+      },
+      "DBMS": {
+        "total": 3,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 33
+      },
+      "SQL": {
+        "total": 4,
+        "correct": 3,
+        "section": "core_cs",
+        "percentage": 75
+      },
+      "Operating Systems": {
+        "total": 2,
+        "correct": 2,
+        "section": "core_cs",
+        "percentage": 100
+      },
+      "OOP": {
+        "total": 2,
+        "correct": 0,
+        "section": "core_cs",
+        "percentage": 0
+      },
+      "DSA": {
+        "total": 2,
+        "correct": 0,
+        "section": "core_cs",
+        "percentage": 0
+      },
+      "Computer Networks": {
+        "total": 1,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 100
+      },
+      "JavaScript": {
+        "total": 8,
+        "correct": 4,
+        "section": "programming",
+        "percentage": 50
+      },
+      "SDE": {
+        "total": 6,
+        "correct": 3,
+        "section": "role_specific",
+        "percentage": 50
+      },
+      "Situational Judgement": {
+        "total": 0,
+        "correct": 0,
+        "section": "professional_skills",
+        "percentage": 0
+      }
+    },
+    "strengths": [
+      "Quantitative Aptitude (100%)",
+      "Operating Systems (100%)",
+      "Computer Networks (100%)"
+    ],
+    "weaknesses": [
+      "Number Series (0%)",
+      "OOP (0%)",
+      "DSA (0%)"
+    ],
+    "timeTakenSeconds": 900,
+    "xpEarned": 100,
+    "submittedAt": "2026-09-28T13:40:08.787Z",
+    "createdAt": "2026-09-28T13:40:08.791Z",
+    "updatedAt": "2026-09-28T13:40:08.791Z"
+  },
+  {
+    "id": "diag_c12ca5d1bb4e",
+    "userId": "1d287608-f36f-4d9c-96d1-fbbdf4393ffe",
+    "mode": "standard",
+    "role": "Frontend",
+    "language": "JavaScript",
+    "totalQuestions": 40,
+    "technicalTotal": 36,
+    "technicalCorrect": 18,
+    "overallPercentage": 50,
+    "technicalAccuracy": 50,
+    "professionalSkillsScore": 67,
+    "sectionScores": {
+      "aptitude": {
+        "total": 8,
+        "correct": 4,
+        "percentage": 50,
+        "name": "aptitude"
+      },
+      "core_cs": {
+        "total": 8,
+        "correct": 4,
+        "percentage": 50,
+        "name": "core_cs"
+      },
+      "programming": {
+        "total": 10,
+        "correct": 5,
+        "percentage": 50,
+        "name": "programming"
+      },
+      "role_specific": {
+        "total": 10,
+        "correct": 5,
+        "percentage": 50,
+        "name": "role_specific"
+      },
+      "professional_skills": {
+        "total": 4,
+        "correct": 2,
+        "percentage": 50,
+        "name": "professional_skills"
+      }
+    },
+    "topicScores": {
+      "Data Interpretation": {
+        "total": 1,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 100
+      },
+      "Number Series": {
+        "total": 2,
+        "correct": 0,
+        "section": "aptitude",
+        "percentage": 0
+      },
+      "Verbal Ability": {
+        "total": 1,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 100
+      },
+      "Quantitative Aptitude": {
+        "total": 3,
+        "correct": 2,
+        "section": "aptitude",
+        "percentage": 67
+      },
+      "Logical Reasoning": {
+        "total": 1,
+        "correct": 0,
+        "section": "aptitude",
+        "percentage": 0
+      },
+      "Operating Systems": {
+        "total": 4,
+        "correct": 2,
+        "section": "core_cs",
+        "percentage": 50
+      },
+      "DSA": {
+        "total": 2,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 50
+      },
+      "SQL": {
+        "total": 1,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 100
+      },
+      "OOP": {
+        "total": 1,
+        "correct": 0,
+        "section": "core_cs",
+        "percentage": 0
+      },
+      "JavaScript": {
+        "total": 10,
+        "correct": 5,
+        "section": "programming",
+        "percentage": 50
+      },
+      "Frontend": {
+        "total": 10,
+        "correct": 5,
+        "section": "role_specific",
+        "percentage": 50
+      },
+      "Situational Judgement": {
+        "total": 0,
+        "correct": 0,
+        "section": "professional_skills",
+        "percentage": 0
+      }
+    },
+    "strengths": [
+      "Data Interpretation (100%)",
+      "Verbal Ability (100%)",
+      "SQL (100%)"
+    ],
+    "weaknesses": [
+      "Number Series (0%)",
+      "Logical Reasoning (0%)",
+      "OOP (0%)"
+    ],
+    "timeTakenSeconds": 900,
+    "xpEarned": 100,
+    "submittedAt": "2026-09-28T13:40:08.830Z",
+    "createdAt": "2026-09-28T13:40:08.830Z",
+    "updatedAt": "2026-09-28T13:40:08.830Z"
+  },
+  {
+    "id": "diag_9d8e7a1b95e7",
+    "userId": "663a083c-637e-42ea-b8ef-78074e6e257d",
+    "mode": "standard",
+    "role": "Backend",
+    "language": "JavaScript",
+    "totalQuestions": 40,
+    "technicalTotal": 36,
+    "technicalCorrect": 18,
+    "overallPercentage": 50,
+    "technicalAccuracy": 50,
+    "professionalSkillsScore": 67,
+    "sectionScores": {
+      "aptitude": {
+        "total": 8,
+        "correct": 4,
+        "percentage": 50,
+        "name": "aptitude"
+      },
+      "core_cs": {
+        "total": 10,
+        "correct": 5,
+        "percentage": 50,
+        "name": "core_cs"
+      },
+      "programming": {
+        "total": 8,
+        "correct": 4,
+        "percentage": 50,
+        "name": "programming"
+      },
+      "role_specific": {
+        "total": 10,
+        "correct": 5,
+        "percentage": 50,
+        "name": "role_specific"
+      },
+      "professional_skills": {
+        "total": 4,
+        "correct": 2,
+        "percentage": 50,
+        "name": "professional_skills"
+      }
+    },
+    "topicScores": {
+      "Data Interpretation": {
+        "total": 3,
+        "correct": 2,
+        "section": "aptitude",
+        "percentage": 67
+      },
+      "Quantitative Aptitude": {
+        "total": 2,
+        "correct": 0,
+        "section": "aptitude",
+        "percentage": 0
+      },
+      "Verbal Ability": {
+        "total": 3,
+        "correct": 2,
+        "section": "aptitude",
+        "percentage": 67
+      },
+      "DSA": {
+        "total": 3,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 33
+      },
+      "Operating Systems": {
+        "total": 1,
+        "correct": 0,
+        "section": "core_cs",
+        "percentage": 0
+      },
+      "DBMS": {
+        "total": 3,
+        "correct": 2,
+        "section": "core_cs",
+        "percentage": 67
+      },
+      "SQL": {
+        "total": 2,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 50
+      },
+      "OOP": {
+        "total": 1,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 100
+      },
+      "JavaScript": {
+        "total": 8,
+        "correct": 4,
+        "section": "programming",
+        "percentage": 50
+      },
+      "Backend": {
+        "total": 10,
+        "correct": 5,
+        "section": "role_specific",
+        "percentage": 50
+      },
+      "Situational Judgement": {
+        "total": 0,
+        "correct": 0,
+        "section": "professional_skills",
+        "percentage": 0
+      }
+    },
+    "strengths": [
+      "OOP (100%)",
+      "Data Interpretation (67%)",
+      "Verbal Ability (67%)"
+    ],
+    "weaknesses": [
+      "Quantitative Aptitude (0%)",
+      "Operating Systems (0%)",
+      "Situational Judgement (0%)"
+    ],
+    "timeTakenSeconds": 900,
+    "xpEarned": 100,
+    "submittedAt": "2026-09-28T13:40:08.880Z",
+    "createdAt": "2026-09-28T13:40:08.880Z",
+    "updatedAt": "2026-09-28T13:40:08.880Z"
+  },
+  {
+    "id": "diag_831e3b197065",
+    "userId": "e807ebc6-147e-4408-bd61-c7af8799f1c9",
+    "mode": "standard",
+    "role": "AI-ML",
+    "language": "Python",
+    "totalQuestions": 40,
+    "technicalTotal": 36,
+    "technicalCorrect": 18,
+    "overallPercentage": 50,
+    "technicalAccuracy": 50,
+    "professionalSkillsScore": 67,
+    "sectionScores": {
+      "aptitude": {
+        "total": 8,
+        "correct": 4,
+        "percentage": 50,
+        "name": "aptitude"
+      },
+      "core_cs": {
+        "total": 8,
+        "correct": 4,
+        "percentage": 50,
+        "name": "core_cs"
+      },
+      "programming": {
+        "total": 10,
+        "correct": 5,
+        "percentage": 50,
+        "name": "programming"
+      },
+      "role_specific": {
+        "total": 10,
+        "correct": 5,
+        "percentage": 50,
+        "name": "role_specific"
+      },
+      "professional_skills": {
+        "total": 4,
+        "correct": 2,
+        "percentage": 50,
+        "name": "professional_skills"
+      }
+    },
+    "topicScores": {
+      "Verbal Ability": {
+        "total": 1,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 100
+      },
+      "Logical Reasoning": {
+        "total": 2,
+        "correct": 0,
+        "section": "aptitude",
+        "percentage": 0
+      },
+      "Data Interpretation": {
+        "total": 2,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 50
+      },
+      "Quantitative Aptitude": {
+        "total": 2,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 50
+      },
+      "Number Series": {
+        "total": 1,
+        "correct": 1,
+        "section": "aptitude",
+        "percentage": 100
+      },
+      "Operating Systems": {
+        "total": 3,
+        "correct": 2,
+        "section": "core_cs",
+        "percentage": 67
+      },
+      "DBMS": {
+        "total": 1,
+        "correct": 0,
+        "section": "core_cs",
+        "percentage": 0
+      },
+      "OOP": {
+        "total": 2,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 50
+      },
+      "SQL": {
+        "total": 2,
+        "correct": 1,
+        "section": "core_cs",
+        "percentage": 50
+      },
+      "Python": {
+        "total": 10,
+        "correct": 5,
+        "section": "programming",
+        "percentage": 50
+      },
+      "AI/ML": {
+        "total": 10,
+        "correct": 5,
+        "section": "role_specific",
+        "percentage": 50
+      },
+      "Situational Judgement": {
+        "total": 0,
+        "correct": 0,
+        "section": "professional_skills",
+        "percentage": 0
+      }
+    },
+    "strengths": [
+      "Verbal Ability (100%)",
+      "Number Series (100%)",
+      "Operating Systems (67%)"
+    ],
+    "weaknesses": [
+      "Logical Reasoning (0%)",
+      "DBMS (0%)",
+      "Situational Judgement (0%)"
+    ],
+    "timeTakenSeconds": 900,
+    "xpEarned": 100,
+    "submittedAt": "2026-09-28T13:40:08.940Z",
+    "createdAt": "2026-09-28T13:40:08.940Z",
+    "updatedAt": "2026-09-28T13:40:08.940Z"
+  }
+]

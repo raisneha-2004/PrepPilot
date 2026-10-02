@@ -1,0 +1,344 @@
+[
+  {
+    "id": "test-user-revision-001",
+    "userId": "test-user-revision-001",
+    "items": {
+      "test_q_1": {
+        "topic": "Arrays & Two Pointers",
+        "questionId": "test_q_1",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-10-02T07:22:46.060Z",
+        "nextReviewDate": "2026-10-03"
+      }
+    },
+    "totalReviews": 22,
+    "updatedAt": "2026-10-02T07:22:46.060Z",
+    "createdAt": "2026-09-28T11:48:02.171Z"
+  },
+  {
+    "id": "user_test_scoring",
+    "userId": "user_test_scoring",
+    "items": {
+      "verb_h_33": {
+        "topic": "Verbal Ability",
+        "questionId": "verb_h_33",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:02:51.416Z",
+        "nextReviewDate": "2026-09-29"
+      },
+      "num_m_24": {
+        "topic": "Number Series",
+        "questionId": "num_m_24",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:02:51.497Z",
+        "nextReviewDate": "2026-09-29"
+      },
+      "quant_e_13": {
+        "topic": "Quantitative Aptitude",
+        "questionId": "quant_e_13",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:08:16.504Z",
+        "nextReviewDate": "2026-09-29"
+      },
+      "verb_m_17": {
+        "topic": "Verbal Ability",
+        "questionId": "verb_m_17",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:08:16.671Z",
+        "nextReviewDate": "2026-09-29"
+      },
+      "syl_m_17": {
+        "topic": "Syllogisms",
+        "questionId": "syl_m_17",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:33:53.939Z",
+        "nextReviewDate": "2026-09-29"
+      },
+      "quant_m_24": {
+        "topic": "Quantitative Aptitude",
+        "questionId": "quant_m_24",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-10-02T07:10:40.264Z",
+        "nextReviewDate": "2026-10-03"
+      },
+      "pl_h_39": {
+        "topic": "Profit & Loss",
+        "questionId": "pl_h_39",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:42:53.883Z",
+        "nextReviewDate": "2026-09-29"
+      },
+      "num_m_25": {
+        "topic": "Number Series",
+        "questionId": "num_m_25",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:42:53.910Z",
+        "nextReviewDate": "2026-09-29"
+      },
+      "log_e_5": {
+        "topic": "Logical Reasoning",
+        "questionId": "log_e_5",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-29T09:45:45.228Z",
+        "nextReviewDate": "2026-09-30"
+      },
+      "log_m_24": {
+        "topic": "Logical Reasoning",
+        "questionId": "log_m_24",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-29T09:45:45.348Z",
+        "nextReviewDate": "2026-09-30"
+      },
+      "verb_m_20": {
+        "topic": "Verbal Ability",
+        "questionId": "verb_m_20",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-29T09:50:00.069Z",
+        "nextReviewDate": "2026-09-30"
+      },
+      "pl_e_1": {
+        "topic": "Profit & Loss",
+        "questionId": "pl_e_1",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-10-02T07:22:46.164Z",
+        "nextReviewDate": "2026-10-03"
+      },
+      "spd_e_4": {
+        "topic": "Speed & Distance",
+        "questionId": "spd_e_4",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-10-02T07:22:46.217Z",
+        "nextReviewDate": "2026-10-03"
+      }
+    },
+    "totalReviews": 14,
+    "updatedAt": "2026-10-02T07:22:46.217Z",
+    "createdAt": "2026-09-28T13:02:51.416Z"
+  },
+  {
+    "id": "2b1955e9-b386-4955-8c3b-3188dd02f965",
+    "userId": "2b1955e9-b386-4955-8c3b-3188dd02f965",
+    "items": {
+      "prob_h_37": {
+        "topic": "Probability & Permutations",
+        "questionId": "prob_h_37",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:29:18.659Z",
+        "nextReviewDate": "2026-09-29"
+      }
+    },
+    "totalReviews": 1,
+    "updatedAt": "2026-09-28T13:29:18.660Z",
+    "createdAt": "2026-09-28T13:29:18.660Z"
+  },
+  {
+    "id": "test_user_scoring",
+    "userId": "test_user_scoring",
+    "items": {
+      "diag_dbms_28": {
+        "topic": "DBMS",
+        "questionId": "diag_dbms_28",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:33:54.043Z",
+        "nextReviewDate": "2026-09-29"
+      },
+      "diag_series_9": {
+        "topic": "Number Series",
+        "questionId": "diag_series_9",
+        "box": 2,
+        "intervalDays": 3,
+        "consecutiveSuccesses": 1,
+        "lastReviewedAt": "2026-09-28T13:42:53.808Z",
+        "nextReviewDate": "2026-10-01"
+      },
+      "diag_oop_5": {
+        "topic": "OOP",
+        "questionId": "diag_oop_5",
+        "box": 2,
+        "intervalDays": 3,
+        "consecutiveSuccesses": 1,
+        "lastReviewedAt": "2026-09-29T09:45:45.444Z",
+        "nextReviewDate": "2026-10-02"
+      },
+      "diag_sql_19": {
+        "topic": "SQL",
+        "questionId": "diag_sql_19",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-29T09:50:00.100Z",
+        "nextReviewDate": "2026-09-30"
+      },
+      "diag_logic_14": {
+        "topic": "Logical Reasoning",
+        "questionId": "diag_logic_14",
+        "box": 2,
+        "intervalDays": 3,
+        "consecutiveSuccesses": 1,
+        "lastReviewedAt": "2026-10-02T07:10:40.293Z",
+        "nextReviewDate": "2026-10-05"
+      }
+    },
+    "totalReviews": 5,
+    "updatedAt": "2026-10-02T07:10:40.367Z",
+    "createdAt": "2026-09-28T13:33:54.046Z"
+  },
+  {
+    "id": "test-integration-user-123",
+    "userId": "test-integration-user-123",
+    "items": {
+      "diag_quant_22": {
+        "topic": "Quantitative Aptitude",
+        "questionId": "diag_quant_22",
+        "box": 2,
+        "intervalDays": 3,
+        "consecutiveSuccesses": 1,
+        "lastReviewedAt": "2026-10-02T07:22:47.742Z",
+        "nextReviewDate": "2026-10-05"
+      },
+      "diag_quant_24": {
+        "topic": "Quantitative Aptitude",
+        "questionId": "diag_quant_24",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:42:59.609Z",
+        "nextReviewDate": "2026-09-29"
+      },
+      "diag_quant_20": {
+        "topic": "Quantitative Aptitude",
+        "questionId": "diag_quant_20",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-29T09:45:50.911Z",
+        "nextReviewDate": "2026-09-30"
+      },
+      "diag_quant_29": {
+        "topic": "Quantitative Aptitude",
+        "questionId": "diag_quant_29",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-29T09:50:01.562Z",
+        "nextReviewDate": "2026-09-30"
+      },
+      "diag_quant_26": {
+        "topic": "Quantitative Aptitude",
+        "questionId": "diag_quant_26",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-10-02T07:10:45.196Z",
+        "nextReviewDate": "2026-10-03"
+      }
+    },
+    "totalReviews": 6,
+    "updatedAt": "2026-10-02T07:22:47.851Z",
+    "createdAt": "2026-09-28T13:33:59.425Z"
+  },
+  {
+    "id": "045e1a83-b555-4cb3-ad79-c30d23a0d629",
+    "userId": "045e1a83-b555-4cb3-ad79-c30d23a0d629",
+    "items": {
+      "diag_js_25": {
+        "topic": "JavaScript",
+        "questionId": "diag_js_25",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:40:08.726Z",
+        "nextReviewDate": "2026-09-29"
+      }
+    },
+    "totalReviews": 1,
+    "updatedAt": "2026-09-28T13:40:08.898Z",
+    "createdAt": "2026-09-28T13:40:08.727Z"
+  },
+  {
+    "id": "1d287608-f36f-4d9c-96d1-fbbdf4393ffe",
+    "userId": "1d287608-f36f-4d9c-96d1-fbbdf4393ffe",
+    "items": {
+      "diag_role_fe_28": {
+        "topic": "Frontend",
+        "questionId": "diag_role_fe_28",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:40:08.810Z",
+        "nextReviewDate": "2026-09-29"
+      }
+    },
+    "totalReviews": 1,
+    "updatedAt": "2026-09-28T13:40:08.992Z",
+    "createdAt": "2026-09-28T13:40:08.901Z"
+  },
+  {
+    "id": "663a083c-637e-42ea-b8ef-78074e6e257d",
+    "userId": "663a083c-637e-42ea-b8ef-78074e6e257d",
+    "items": {
+      "diag_role_be_27": {
+        "topic": "Backend",
+        "questionId": "diag_role_be_27",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:40:08.845Z",
+        "nextReviewDate": "2026-09-29"
+      }
+    },
+    "totalReviews": 1,
+    "updatedAt": "2026-09-28T13:40:09.104Z",
+    "createdAt": "2026-09-28T13:40:08.994Z"
+  },
+  {
+    "id": "e807ebc6-147e-4408-bd61-c7af8799f1c9",
+    "userId": "e807ebc6-147e-4408-bd61-c7af8799f1c9",
+    "items": {
+      "diag_role_aiml_29": {
+        "topic": "AI/ML",
+        "questionId": "diag_role_aiml_29",
+        "box": 1,
+        "intervalDays": 1,
+        "consecutiveSuccesses": 0,
+        "lastReviewedAt": "2026-09-28T13:40:08.895Z",
+        "nextReviewDate": "2026-09-29"
+      }
+    },
+    "totalReviews": 1,
+    "updatedAt": "2026-09-28T13:40:09.220Z",
+    "createdAt": "2026-09-28T13:40:09.107Z"
+  }
+]
